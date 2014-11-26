@@ -1,1 +1,72 @@
-Hello World
+<!--
+/---------------------------------------------------\
+|File: index.html                                   |
+|Author: AlvesRC                                    |
+|Description: Homepage for my github.io page.       |
+|Comments:                                          |
+\---------------------------------------------------/
+-->
+
+<!-- Definindo documento como HTML -->
+<!DOCTYPE html>
+
+<!-- Definindo o idioma do atual documento -->
+<html lang="pt">
+    <head>
+        <!-- Definindo o tipo do conteúdo e a codificação -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!-- Definindo a codificação dos caracteres -->
+        <meta charset="utf-8">
+        <!-- Compatiblidade? -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Definindo a maneira de visualização com base no dispositivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Definindo autor e descrição da página -->
+        <meta name="author" content="Rodolpho de Castro Alves">
+        <meta name="description" content="Homepage de minha página pessoal github.io">
+        <!-- Ícone da página -->
+        <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+        <!-- Definindo o título da página-->
+        <title> Minha página pessoal github.io </title>
+
+        <!-- Carregando arquivos do bootstrap -->
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+        <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <!-- Carregando tema personalizado -->
+        <link href="resources/css/bootstrap-alvesrc-theme.css" rel="stylesheet">
+
+    </head>
+
+    <body role="document">
+        <!-- Barra de navegação -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container"> <!-- Criando um container para abrigar a navbar-->
+                <div class="navbar-header"> <!-- Header da navbar -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Ativar navegação.</span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Minha página Github</a>
+                 </div>
+                <!-- Conteúdo da navbar -->
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>   <!-- Link para a home-->
+                        <li><a href="">Visão Geral</a></li>                     <!-- Link para a página de overview -->
+                        <li class="dropdown">                                   <!-- Implementação de um menu dropdown -->
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projetos
+                                <span class="caret"></span>
+                            </a>    <!-- Dropdown-->
+                            <ul class="dropdown-menu" role="menu">  <!-- Items do dropdown -->
+                                <li><a href="index.html">SGF 2015</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </body>
+</html>

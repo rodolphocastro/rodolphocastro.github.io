@@ -28,7 +28,7 @@
         <link rel="icon" href="favicon.ico">
 
         <!-- Definindo o título da página-->
-        <title> Rodolpho - Curriculum Vitae </title>
+        <title> Rodolpho - Template </title>
 
         <!-- Carregando arquivos do bootstrap -->
         <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -62,9 +62,9 @@
                                 <span class="caret"></span>
                             </a>    <!-- Dropdown-->
                             <ul class="dropdown-menu" role="menu">  <!-- Items do dropdown -->
-                                <li><a href="./latestprojects.html">Projects I'm working on</a></li>
+                                <li class="active"><a href="./latestprojects.html">Projects I'm working on</a></li>
                                 <li class="divider"></li>
-                                <li class="dropdown-header">All Projects</li>
+                                <li class="dropdown-header">Featured Projects</li>
                                 <li><a href="./sgf2015.html">SGF 2015</a></li>
                                 <li><a href="./salvasenhas.html">SalvaSenhasV2</a></li>
                             </ul>
@@ -77,7 +77,7 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="./aboutme.html"><span class="glyphicon glyphicon-question-sign"></span> General Information</a></li>
                                 <li><a href="./socialnetworks.html"><span class="glyphicon glyphicon-globe"></span> Social Networks</a></li>
-                                <li class="active"><a href="./curriculum.html"><span class="glyphicon glyphicon-file"></span> Curriculum Vitae</a></li>
+                                <li><a href="./curriculum.html"><span class="glyphicon glyphicon-file"></span> Curriculum Vitae</a></li>
                                 <li><a href="./contactme.html"><span class="glyphicon glyphicon-inbox"></span> Contact me!</a></li>
                             </ul>
                         </li>
@@ -96,8 +96,8 @@
         <div class="container" role="banner">
             <ol class="breadcrumb">
                 <li><a href="./index.html">Rodolpho's Github Homepage</a></li>
-                <li><a href=#>About me</a></li>
-                <li class="active"><a href=#>Curriculum Vitae</a></li>
+                <li><a href=#>Projects</a></li>
+                <li class="active"><a href=#>Latest Projects</a></li>
             </ol>
         </div>
         <!-- Fim breadcrumbs -->
@@ -107,18 +107,59 @@
             <p><span class="glyphicon glyphicon-warning-sign"></span><strong> Reminder:</strong> this website is a WIP and does not represent its final version!</p>
         </div>
         
+        <!-- Carousel para mostrar highlights -->
+        <div id="highlights" class="carousel slide container" data-ride="carousel" data-interval="6000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#highlights" data-slide-to="0" class="active"></li>
+                <li data-target="#highlights" data-slide-to="1"></li>
+            </ol>
+            <!-- Slides -->
+            <div class="carousel-inner" role="listbox">
+                <!-- Primeiro Slide -->
+                <div class="item active">
+                    <img class="img-responsive" src="./resources/img/news/1.jpg"/>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>SGF 2015</h1>
+                            <p>SGF 2015 is a software in-development for managing family's finances in an easy and pratical way.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Segundo Slide -->
+                <div class="item">
+                    <img class="img-responsive" data-src="holder.js/900x500"/>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>SalvaSenhas V2</h1>
+                            <p>A software for those who want to keep their passwords safely within their own computer!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controles -->
+            
+            
+        </div>
         
-        <!-- Início do principal container da página -->
-        <div class="jumbotron" role="main">
-            <div class="container">
-                <h1>Curriculum Vitae</h1>
-                <p>You can download my CV using the button below:</p>
-                <p><a href="./files/curriculum/CurriculumVitae.pdf" class="btn btn-primary btn-lg" role="button">Download</a></p>
-                <p class="pull-right"><small>Last updated: November 26th</small></p>
+        <!-- Principal corpo de texto -->
+        <div class="container">
+            <div class="row text-center media-center">
+                <div class="col-lg-4">
+                    <img class="img-circle" data-src="holder.js/140x140" style="width: 140px; height: 140px;"/>
+                    <h2>SGF 2015</h2>
+                    <p>SGF 2015 (Sistemas de Gestão Financeira 2015, in portuguese) is a software in-development for managing a family's finances in an easy and pratical way. Some of its features: Graphs for dependitures/earning, Reports, Suport for Multiple Users.</p>
+                    <p><a class="btn btn-primary" href=# role="button">View Details</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-circle" data-src="holder.js/140x140" style="width: 140px; height: 140px"/>
+                    <h2>SalvaSenhas v2</h2>
+                    <p>SalvaSenhas version 2.0 (PasswordSaver, in a crude portuguese-english translation) is a software for storing passwords within a local SQLite database in the user's computer. The software uses double cryptography to safely store its passwords. Some of its features: Reports for each User, Suport for multiple users, Storage and Search of Passwords.</p>
+                    <p><a class="btn btn-primary" href=# role="button">View Details</a></p>
+                </div>
             </div>
         </div>
-        <!-- Fim do principal container -->
-        
         <!-- Rodapé -->
         <footer>
             <p class="pull-right"><a href=#>Back to top</a></p>

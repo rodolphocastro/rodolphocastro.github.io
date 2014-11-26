@@ -28,7 +28,7 @@
         <link rel="icon" href="favicon.ico">
 
         <!-- Definindo o título da página-->
-        <title> Rodolpho - Social Networks </title>
+        <title> Rodolpho - Overview </title>
 
         <!-- Carregando arquivos do bootstrap -->
         <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="./index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>   <!-- Link para a home-->
-                        <li><a href="./overview.html"><span class="glyphicon glyphicon-eye-open"></span> Overview</a></li>                     <!-- Link para a página de overview -->
+                        <li class="active"><a href="./overview.html"><span class="glyphicon glyphicon-eye-open"></span> Overview</a></li>                     <!-- Link para a página de overview -->
                         <li class="dropdown">                                   <!-- Implementação de um menu dropdown -->
                             <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                 <span class="glyphicon glyphicon-folder-open"></span> Projects
@@ -76,7 +76,7 @@
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="./aboutme.html"><span class="glyphicon glyphicon-question-sign"></span> General Information</a></li>
-                                <li class="active"><a href="./socialnetworks.html"><span class="glyphicon glyphicon-globe"></span> Social Networks</a></li>
+                                <li><a href="./socialnetworks.html"><span class="glyphicon glyphicon-globe"></span> Social Networks</a></li>
                                 <li><a href="./curriculum.html"><span class="glyphicon glyphicon-file"></span> Curriculum Vitae</a></li>
                                 <li><a href="./contactme.html"><span class="glyphicon glyphicon-inbox"></span> Contact me!</a></li>
                             </ul>
@@ -96,91 +96,25 @@
         <div class="container" role="banner">
             <ol class="breadcrumb">
                 <li><a href="./index.html">Rodolpho's Github Homepage</a></li>
-                <li><a href=#>About me</a></li>
-                <li class="active"><a href=#>Social Networks</a></li>
+                <li class="active"><a href=#>Overview</a></li>
             </ol>
         </div>
         <!-- Fim breadcrumbs -->
         
         <!-- Alerta -->
         <div class="alert alert-warning" role="alert">
-            <p><span class="glyphicon glyphicon-warning-sign"></span><strong> Reminder:</strong> this website is a WIP and does not represent the final version!</p>
+            <p><span class="glyphicon glyphicon-warning-sign"></span><strong> Reminder:</strong> this website is a WIP and does not represent its final version!</p>
         </div>
         
-        
-        <!-- Início do principal container da página -->
-        <div class="jumbotron" role="main">
-            <div class="container">
-                <h1>Social Networks</h1>
-                <p>You can find me on plenty of social networks but the ones I mainly use are the ones listed below.</p>
-            </div>
-        </div>
-        <!-- Fim do principal container -->
-        
-        <!-- Container com as redes sociais -->
-        <div class="container media-center text-center">
-            <!-- Linha -->
-            <div class="row">
-                <!-- Colunas -->
-                
-                <!-- Facebook-->
-                <div class="col-md-4">
-                    <h2>Facebook</h2>
-                    <a href="https://www.facebook.com/rodolpho.castro.a" title="Rodolpho De Castro Alves" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/100001469145601.2487.752199363.png" style="border: 0px;" alt="" /></a>
-                </div>
-                
-                <!-- Twitter -->
-                <div class="col-md-4">
-                    <h2>Twitter</h2>
-                    <a class="twitter-timeline" href="https://twitter.com/rodolpho_castro" data-widget-id="537670944031260672">Tweets by @rodolpho_castro</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-                    </script>
-                </div>
-                
-                <!--Google plus-->
-                <div class="col-md-4">
-                    <h2>Google Plus</h2>
-                    <!-- Place this tag where you want the widget to render. -->
-                    <div class="g-person" data-width="360" data-href="//plus.google.com/u/0/114609155086577088024" data-showcoverphoto="false" data-rel="author">
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Segunda linha -->
-            <div class="row row-centered">
-                <!--<div class="col-md-4">
-                </div>-->
-                <!-- Coluna GitHub -->
-                <div class="col-md-12">
-                    <h2>GitHub</h2>
-                    <div class="github-card" data-github="rodolphocastro" data-width="360" data-height="151" data-theme="default"></div>
-<script src="http://lab.lepture.com/github-cards/widget.js"></script>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Segundo corpo de texto -->
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Gaming Networks</h1>
-                <p>One of my hobbies is playing video-games, so here's a bunch of links to my profiles in those networks!</p>
-            </div>
-        </div>
-        
-        <!-- Container para as redes sociais de jogos -->
-        <div class="container media-center">
-            <div class="row">
-                <!-- Steam -->
-                <div class="col-md-6">
-                    <a>
-                        <img src="http://steamsignature.com/profile/english/76561198064730869.png" alt="Rodolpho's Steam Profile" title="Steam"/>
-                    </a>
-                </div>
-                <!-- PSN -->
-                <div class="col-md-6">
-                    <a href="http://psnprofiles.com/arcebus93"><img src="http://card.psnprofiles.com/1/arcebus93.png" border="0"></a>
-                </div>
-            </div>
+        <!-- Corpo Principal -->
+        <div class="jumbotron container">
+            <h1>Overview</h1>
+            <h2>What I've been doing:</h2>
+            <p>Programming AI for an University project, developing an integrated system (also for an university project) and working on SGF 2015.</p>
+            <h2>What I plan on doing:</h2>
+            <p>On finishing SGF 2015 prototype and documentation and on taking a vacation (Looking foward this one).</p>
+            <h2>What I've been studying:</h2>
+            <p>Bootstrap framework, Hibernate framework, Fuzzy logic, css and javascript.</p>
         </div>
         
         <!-- Rodapé -->
@@ -194,6 +128,5 @@
         <script src="resources/js/jquery-2.1.1.min.js"></script>
         <script src="resources/js/bootstrap.min.js"></script>
         <script src="resources/js/holder.js"></script>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
     </body>
 </html>

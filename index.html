@@ -1,190 +1,406 @@
-<!--
-/---------------------------------------------------\
-|File: index.html                                   |
-|Author: AlvesRC                                    |
-|Description: Homepage for my github.io page.       |
-|Comments:                                          |
-\---------------------------------------------------/
--->
-
-<!-- Definindo documento como HTML -->
 <!DOCTYPE html>
 
 <!-- Definindo o idioma do atual documento -->
-<html lang="en">
-    <head>
-        <!-- Definindo o tipo do conteúdo e a codificação -->
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <!-- Definindo a codificação dos caracteres -->
-        <meta charset="utf-8">
-        <!-- Compatiblidade? -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- Definindo a maneira de visualização com base no dispositivo -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Definindo autor e descrição da página -->
-        <meta name="author" content="Rodolpho de Castro Alves">
-        <meta name="description" content="Rodolpho's homepage @ github.io!">
-        <!-- Ícone da página -->
-        <link rel="icon" href="favicon.ico">
+<html class="full" lang="en">
+<head>
+    <!-- Definindo o tipo do conteúdo e a codificação -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Definindo a codificação dos caracteres -->
+    <meta charset="utf-8">
+    <!-- Compatiblidade? -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Definindo a maneira de visualização com base no dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Definindo autor e descrição da página -->
+    <meta name="author" content="Rodolpho de Castro Alves">
+    <meta name="description" content="Rodolpho's homepage @ github.io">
+    <!-- Ícone da página -->
+    <link rel="icon" href="favicon.ico">
+    <!-- Palavras Chave -->
+    <meta name="keywords" content="Rodolpho C. Alves, github.com/rodolphocastro, Rodolpho de Castro Alves, software developer, programmer, it, gamer, asp net">
+    <!-- Definindo o título da página-->
+    <title> ARdC - Home </title>
 
-        <!-- Definindo o título da página-->
-        <title> Rodolpho - Home </title>
+    <!-- Carregando arquivos do bootstrap -->
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet">
 
-        <!-- Carregando arquivos do bootstrap -->
-        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Fontes -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-        <!-- Carregando tema personalizado -->
-        <link href="resources/css/bootstrap-alvesrc-theme.css" rel="stylesheet">
+    <!-- Carregando tema personalizado -->
+    <!--<link href="resources/css/bootstrap-alvesrc-theme.css" rel="stylesheet">-->
+    <link href="resources/css/theme.css" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body role="document">
-        <!-- Início da navbar -->
-        <!-- Barra de navegação -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container"> <!-- Criando um container para abrigar a navbar-->
-                <div class="navbar-header"> <!-- Header da navbar -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Enable navigation.</span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Rodolpho's Github Homepage</a>
-                 </div>
-                <!-- Conteúdo da navbar -->
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="./index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>   <!-- Link para a home-->
-                        <li><a href="./overview.html"><span class="glyphicon glyphicon-eye-open"></span> Overview</a></li>                     <!-- Link para a página de overview -->
-                        <li class="dropdown">                                   <!-- Implementação de um menu dropdown -->
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                <span class="glyphicon glyphicon-folder-open"></span> Projects
-                                <span class="caret"></span>
-                            </a>    <!-- Dropdown-->
-                            <ul class="dropdown-menu" role="menu">  <!-- Items do dropdown -->
-                                <li><a href="./latestprojects.html">Projects I'm working on</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">All Projects</li>
-                                <li><a href="./sgf2015.html">SGF 2015</a></li>
-                                <li><a href="./salvasenhas.html">SalvaSenhasV2</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                <span class="glyphicon glyphicon-user"></span> About me
-                                <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="./aboutme.html"><span class="glyphicon glyphicon-question-sign"></span> General Information</a></li>
-                                <li><a href="./socialnetworks.html"><span class="glyphicon glyphicon-globe"></span> Social Networks</a></li>
-                                <li><a href="./curriculum.html"><span class="glyphicon glyphicon-file"></span> Curriculum Vitae</a></li>
-                                <li><a href="./contactme.html"><span class="glyphicon glyphicon-inbox"></span> Contact me!</a></li>
-                            </ul>
-                        </li>
-                        <form role="search" class="navbar-form navbar-left">
-                            <div class="form-group">
-                                <input type="text" placeholder="Search" class="form-control"/>
-                            </div>
-                        </form>
-                    </ul>
+<body>
+    <!-- Navegação -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li>
+                <a id="menu-close" href="#" class="btn btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            </li>
+            <li class="sidebar-brand">
+                <a href="#top" onclick="closeMenu()">ARdC Homepage</a>
+            </li>
+            <li>
+                <a href="#top" onclick="closeMenu()"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick="closeMenu()"><i class="fa fa-info-circle"></i> About Me</a>
+            </li>
+            <li>
+                <a href="#skills" onclick="closeMenu()"><i class="fa fa-code"></i> Programming Languages</a>
+                <ul>
+                    <li>
+                        <a href="#frameworks" onclick="closeMenu()"><i class="fa fa-gear"></i> Frameworks</a>
+                    </li>
+                    <li>
+                        <a href="#versioning" onclick="closeMenu()"><i class="fa fa-clock-o"></i> Version Control</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#projects" onclick="closeMenu()"><i class="fa fa-folder"></i> Projects</a>
+            </li>
+            <li>
+                <a href="#socialmedia" onclick="closeMenu()"><i class="fa fa-group"></i> Social Networks</a>
+            </li>
+            <li>
+                <a href="#games" onclick="closeMenu()"><i class="fa fa-gamepad"></i> Gaming</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>ARdC's Homepage</h1>
+            <h3>Software Developer</h3>
+        </div>
+    </header>
+    
+    <!-- Conteúdo -->
+    
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center col-xs-12">
+                    <h2>About me</h2>
+                    <p class="lead">I'm a 22 years old Brazilian software developer, an avid reader and gamer during my free times.</p>
                 </div>
             </div>
-        </nav>
-        <!-- Fim da navbar -->
-        
-        <!-- Breadcrumbs -->
-        <div class="container" role="banner">
-            <ol class="breadcrumb">
-                <li><a href="">Rodolpho's Github Homepage</a></li>
-                <li class="active"><a href="./index.html">Home</a></li>
-            </ol>
         </div>
-        <!-- Fim breadcrumbs -->
-        
-        <!-- Alerta -->
-        <div class="alert alert-warning" role="alert">
-            <p><span class="glyphicon glyphicon-warning-sign"></span><strong> Reminder:</strong> this website is a WIP and does not represent the final version!</p>
-        </div>
-        
-        
-        <!-- Início do principal container da página -->
-        <div class="container" role="main" id="mainContainer">
-            <div class="jumbotron">
-                <h1>Welcome!</h1>
-                <p>Welcome to my personal github.io page! Please select an option from the navigation bar for futher details!</p>
-            </div>
-        </div>
-        <!-- Fim do principal container -->
-        
-        <!-- Container de Notícias -->
-        <div class="container" role="main">
-            <div class="jumbotron">
-                <h1>News</h1>
-                <!-- Elemento do tipo Carousel para exibir slides -->
-                <div id="newsCarousel" class="carousel slide container media-center" data-interval="6000">
-                    <!-- Indicadores -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#newsCarousel" data-slide-to="1"></li>
-                        <li data-target="#newsCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Slides do carousel -->
-                    <div class="carousel-inner">
-                        <!-- Primeiro slide -->
-                        <div class="item active">
-                            <img src="resources/img/news/1.jpg" class="img-responsive" width="100%"/>
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h1>Website now Live!</h1>
-                                    <p>This website is now up and running! Hopefully without bugs!</p>
-                                </div>
+    </section>
+    
+    <!-- Skills -->
+    <section id="skills" class="services bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center col-xs-12">
+                    <h2>Programming Languages</h2>
+                    <p class="lead">Those are the programming language I know the most</p>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="service-item">
+                                <img src="resources/img/csharp.png" alt="CSharp Icon" class="img-responsive img-circle fa-stack fa-4x">
+                                <hr class="small">
+                                <h4>
+                                    <strong>C#</strong>
+                                </h4>
+                                <p><strong>C#</strong> is a an object-oriented programming language from Microsoft, it aims to combine the power of C++ and the ease of Visual Basic.</p>
+                                <a href="#" class="btn btn-light">Sample Project</a>
                             </div>
                         </div>
-                        <!-- Segundo slide -->
-                        <div class="item">
-                            <img src="resources/img/news/2.jpg" class="img-responsive"  width="100%"/>
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h1>A new project!</h1>
-                                    <p>SGF 2015 has been added to the list of ongoing projects! Check the latest projects page for more info.</p>
-                                </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="service-item">
+                                <img src="resources/img/java.png" alt="Java Icon" class="img-responsive img-circle fa-stack fa-4x">
+                                <hr class="small">
+                                <h4>
+                                    <strong>Java</strong>
+                                </h4>
+                                <p><strong>Java</strong> is an object-oriented programming language, developed by Oracle, it's widely used on a range of devices.</p>
+                                <a href="https://github.com/rodolphocastro/YAJAProxy" class="btn btn-light">Sample Project</a>
                             </div>
                         </div>
-                        <!-- Terceiro Slide -->
-                        <div class="item">
-                            <img src="resources/img/news/3.jpg" class="img-responsive"  width="100%"/>
-                            <div class="container">
-                                <div class="carousel-caption">
-                                    <h1>Curriculum Vitae</h1>
-                                    <p>My Curriculum Vitae is now available on the website! Please check the about me section for more info.</p>
-                                </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="service-item">
+                                <img src="resources/img/ruby.png" alt="Ruby Icon" class="img-responsive img-circle fa-stack fa-4x">
+                                <hr class="small">
+                                <h4>
+                                    <strong>Ruby</strong>
+                                </h4>
+                                <p><strong>Ruby</strong> is a dynamic, object-oriented, general-purprose programming language, developed by Yukiho Matsumoto.</p>
+                                <a href="https://github.com/rodolphocastro/Crimson-Correlation" class="btn btn-light">Sample Project</a>
                             </div>
-                        </div>   
+                        </div>
                     </div>
-                    
-                    <!-- Controles -->
-                    <a class="left carousel-control" href="#newsCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#newsCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                    
+                    <div class="row" id="frameworks">
+                        <h2>Frameworks</h2>
+                        <hr class="small">
+                        <p class="lead">Those are the frameworks and libraries I use the most on my projects</p>
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-3">
+                                    <div class="service-item">
+                                        <img src="resources/img/mvc.jpg" alt="Asp .Net MVC Icon" class="img-responsive img-circle fa-stack fa-3x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>Asp .NET Mvc</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-3">
+                                    <div class="service-item">
+                                        <img src="resources/img/rails.png" alt="Ruby on Rails Icon" class="img-responsive img-circle fa-stack fa-3x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>Rails</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-3">
+                                    <div class="service-item">
+                                        <img src="resources/img/jsf.png" alt="Java Server Faces Icon" class="img-responsive img-circle fa-stack fa-3x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>Java Server Faces</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-3">
+                                    <div class="service-item">
+                                        <img src="resources/img/jQuery.png" alt="jQuery Icon" class="img-responsive img-circle fa-stack fa-3x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>jQuery</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-ms-6 col-md-4">
+                                    <div class="service-item">
+                                        <img src="resources/img/ef.gif" alt="Entity Framework Icon" class="img-responsive img-circle fa-stack fa-4x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>Entity Framework</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-ms-6 col-md-4">
+                                    <div class="service-item">
+                                        <img src="resources/img/hibernate.png" alt="Hibernate Icon" class="img-responsive img-circle fa-stack fa-4x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>Hibernate</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-ms-6 col-md-4">
+                                    <div class="service-item">
+                                        <img src="resources/img/bootstrap.png" alt="Bootstrap Icon" class="img-responsive img-circle fa-stack fa-4x">
+                                        <hr class="small">
+                                        <h4>
+                                            <strong>Bootstrap</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="versioning">
+                        <h2>Versioning</h2>
+                        <hr class="small">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="service-item">
+                                    <img src="resources/img/git.png" alt="Git logo" class="img-responsive img-rounded fa-stack fa-4x">
+                                    <hr class="small">
+                                    <h4>
+                                        <strong>Git</strong>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="service-item">
+                                    <img src="resources/img/svn.png" alt="Git logo" class="img-responsive img-rounded fa-stack fa-4x">
+                                    <hr class="small">
+                                    <h4>
+                                        <strong>Subversion</strong>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects -->
+    <section id="projects" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center col-xs-12">
+                    <h2>My past projects</h2>
+                    <hr class="small">
                     
                 </div>
             </div>
         </div>
-        <!-- Fim do Container de Notícias -->
+    </section>
+    
+    <!-- Social Media -->
+    <section id="socialmedia" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center col-xs-12">
+                    <h2>Social Networks</h2>
+                    <hr class="small">
+                    <p class="lead">Social Networks you can find me on</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa fa-stack fa-4x fa-linkedin img-rounded"></i>
+                            <h4>
+                                <strong>LinkedIn</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="https://br.linkedin.com/pub/rodolpho-castro-alves/47/360/42" class="btn btn-light">View my Profile</a>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-stack fa-4x fa-facebook-square img-rounded"></i>
+                            <h4>
+                                <strong>Facebook</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="https://www.facebook.com/rodolpho.castro.a" class="btn btn-light">View my Profile</a>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-stack fa-4x fa-twitter-square img-rounded"></i>
+                            <h4>
+                                <strong>Twitter</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="https://twitter.com/rodolpho_castro" class="btn btn-light">View my Profile</a>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fa fa-stack fa-4x fa-google-plus-square img-rounded"></i>
+                            <h4>
+                                <strong>Google+</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="https://plus.google.com/+RodolphodeCastroAlves/posts" class="btn btn-light">View my Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Games -->
+    <section id="games" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center col-xs-12">
+                    <h2>Gaming Networks</h2>
+                    <hr class="small">
+                    <p class="lead">Those are the gaming websites and networks in which I'm on</p>
+                    <div class="row">
+                        <!-- Steam -->
+                        <div class="col-md-4">
+                            <img src="resources/img/steam.png" alt="Steam logo" class="img-responsive img-circle fa-stack fa-4x">
+                            <h4>
+                                <strong>Steam</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="http://steamcommunity.com/id/utterlywicked" class="btn btn-primary">Profile</a>
+                            <br>
+                        </div>
+                        <!-- Psn -->
+                        <div class="col-md-4">
+                            <img src="resources/img/psn.png" alt="Psn Logo" class="img-responsive img-circle fa-stack fa-4x">
+                            <h4>
+                                <strong>Playstation Network</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="http://psnprofiles.com/arcebus93" class="btn btn-primary">Profile</a>
+                            <br>
+                        </div>
+                        <!-- Twitch TV -->
+                        <div class="col-md-4">
+                            <img src="resources/img/twitch.png" alt="Twitch TV Logo" class="img-responsive img-circle fa-stack fa-4x">
+                            <h4>
+                                <strong>Twitch TV</strong>
+                            </h4>
+                            <hr class="small">
+                            <a href="http://www.twitch.tv/arcebus" class="btn btn-primary">Profile</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Fim do conteúdo -->
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p class="pull-left text-muted"><a href="#top">Back to top</a></p>
+            <p class="text-muted pull-right">© 2015 ARdC</p>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap core Javascript 
+    ============================================= -->
+    <!-- Colocados no fim da página para permitir um carregamento mais rápido -->
+    <script src="resources/js/jquery-2.1.4.js"></script>
+    <script src="resources/js/bootstrap.js"></script>
+    <!-- Scripts Personalizados para o site -->
+    <script type="text/javascript">
+        // Fecha a sidebar ao click do botão
+        $("#menu-close").click(function(e)
+        {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
         
-        <footer>
-            <p class="pull-right"><a href=#>Back to top</a></p>
-            <p>© 2014 AlvesRC</p>
-        </footer>
-        <!-- Bootstrap core Javascript 
-        ============================================= -->
-        <!-- Colocados no fim da página para permitir um carregamento mais rápido -->
-        <script src="resources/js/jquery-2.1.1.min.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
-        <script src="resources/js/holder.js"></script>
-    </body>
+        // Abrir o menu sidebar
+        $("#menu-toggle").click(function(e)
+        {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        
+        // Fecha a sidebar
+        function closeMenu(){
+            $("#sidebar-wrapper").toggleClass("active");
+        };
+        
+        // Scroll customizado
+        $(function()
+        {
+            $('a[href*=#]:not([href=#])').click(function()
+            {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname)
+                {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name =' + this.hash.slice(1) + ']');
+                    if (target.length)
+                    {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</body>
 </html>

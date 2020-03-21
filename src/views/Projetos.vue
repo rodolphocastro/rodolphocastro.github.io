@@ -1,6 +1,10 @@
 <template>
   <section>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptatum repellendus et vitae consectetur pariatur soluta sed! Libero accusamus obcaecati esse iste facere? Repellat illum aperiam voluptatem nisi similique expedita.</p>
+    <h2>Meus Projetos</h2>
+    <p>Estes são os repositórios <em>públicos</em> nos quais participo</p>
+    <article>
+      <h3>W.I.P.</h3>
+    </article>
   </section>
 </template>
 

@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-// import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faMedium, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faQuestion } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Vue from 'vue'
@@ -11,7 +11,7 @@ import store from './store'
 library.add(faHome, faQuestion)
 
 // Adicionando ícones do FontAwesome Brands
-// library.add(faGithub)
+library.add(faGithub, faLinkedin, faMedium, faTelegram)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

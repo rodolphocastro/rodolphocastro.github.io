@@ -1,32 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <header id="nav">
+      <h1>rodolphocastro.github.io</h1>
+      <p>Minha página pessoal no GitHub</p>
+      <navigation-bar></navigation-bar>
+    </header>
+    <main>
+      <router-view/>
+    </main>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script lang="ts">
+import { Vue, Component } from 'vue-property-decorator'
+import NavigationBar from '@/components/NavigationBar.vue'
+
+@Component({
+  name: 'app',
+  components: {
+    NavigationBar
+  }
+})
+export default class App extends Vue {
 }
 
-#nav {
-  padding: 30px;
-}
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+<style src='awsm.css/dist/awsm_theme_black.min.css'>
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>

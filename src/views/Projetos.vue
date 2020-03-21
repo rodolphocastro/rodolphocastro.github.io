@@ -7,7 +7,12 @@
     </p>
     <small>Eles são recuperados automaticamente do meu perfil no GitHub, então não estão em nenhuma ordem específica!</small>
     <hr />
-    <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>
+    <template v-if="repositories.length">
+      <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>
+    </template>
+    <template v-else>
+      <p>Nada foi encontrado!</p>
+    </template>
   </section>
 </template>
 

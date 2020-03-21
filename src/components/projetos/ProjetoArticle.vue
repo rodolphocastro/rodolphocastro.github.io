@@ -3,7 +3,10 @@
     <h3>{{repo.name}}</h3>
     <small>{{repo.full_name}}</small>
     <p>{{repo.description}}</p>
-    <a :href="repo.html_url">Abrir no GitHub</a>
+    <a :href="repo.html_url">
+      <font-awesome-icon :icon="['fas', 'link']"></font-awesome-icon>
+      Abrir no GitHub
+    </a>
   </article>
 </template>
 
@@ -19,3 +22,11 @@ export default class ProjetoArticle extends Vue {
   @Prop({ required: true }) readonly repo!: Repository;
 }
 </script>
+
+<style scoped>
+
+a {
+  text-decoration: none;
+}
+
+</style>

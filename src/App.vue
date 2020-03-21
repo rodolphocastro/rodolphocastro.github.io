@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <header id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    </header>
+    <main>
+      <router-view/>
+    </main>
   </div>
 </template>
 
-<style>
+<style src='awsm.css/dist/awsm_theme_black.min.css'>
 
 </style>

@@ -3,6 +3,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import { projetos } from './projetos/'
 import { state } from './state'
+import { Tecnologia } from '@/models/Tecnologia'
 
 Vue.use(Vuex)
 
@@ -11,6 +12,9 @@ export default new Vuex.Store({
   mutations: {
     setRedesSociais (state, novasRedes: RedeSocial[]) {
       state.redesSociais = novasRedes
+    },
+    setTecnologias (state, novasTecnologias: Tecnologia[]) {
+      state.tecnologias = novasTecnologias
     }
   },
   actions: {
@@ -42,6 +46,19 @@ export default new Vuex.Store({
         }
       ]
       commit('setRedesSociais', novasRedes)
+    },
+    fetchTecnologias ({ commit }) {
+      const tecnologias: Tecnologia[] = [
+        {
+          name: 'C#',
+          description: 'Linguagem orientada a objetos da Microsoft',
+          stars: 5,
+          techUrl: new URL('https://docs.microsoft.com/en-us/dotnet/csharp/'),
+          techIcon: { faType: 'fab', faIcon: 'microsoft' }
+        }
+      ]
+      // TODO: Adicionar as outras tecnologias
+      commit('setTecnologias', tecnologias)
     }
   },
   modules: {

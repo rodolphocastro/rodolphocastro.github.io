@@ -29,7 +29,7 @@ export default class NavigationBar extends Vue {}
 <style scoped>
 
 svg {
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 a, nav {

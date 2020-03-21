@@ -1,14 +1,13 @@
 <template>
   <section>
     <h2>Meus Projetos</h2>
-    <p>Estes são os repositórios <em>públicos</em> nos quais participo.</p>
+    <p>
+      Estes são os repositórios
+      <em>públicos</em> nos quais participo.
+    </p>
     <small>Eles são recuperados automaticamente do meu perfil no GitHub, então não estão em nenhuma ordem específica!</small>
-    <article v-for="repo in repositories" :key="repo.id">
-      <h3>{{repo.name}}</h3>
-      <small>{{repo.full_name}}</small>
-      <p>{{repo.description}}</p>
-      <a :href="repo.html_url">Abrir no GitHub</a>
-    </article>
+    <hr />
+    <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>
   </section>
 </template>
 
@@ -16,11 +15,15 @@
 import { Vue, Component } from 'vue-property-decorator'
 import { mapActions, mapState } from 'vuex'
 import { Repository } from '@/models/github/Repository'
+import ProjetoArticle from '@/components/projetos/ProjetoArticle.vue'
 
 @Component({
   name: 'projetos',
   computed: { ...mapState('projetos', ['repositories']) },
-  methods: { ...mapActions('projetos', ['fetchRepositories']) }
+  methods: { ...mapActions('projetos', ['fetchRepositories']) },
+  components: {
+    ProjetoArticle
+  }
 })
 export default class Projetos extends Vue {
   fetchRepositories!: () => Promise<void>;

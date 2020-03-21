@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from './FontAwesomeIcon';
+import { FontAwesomeIcon } from './FontAwesomeIcon'
 
 /**
  * Descreve as propriedades para uma rede social a ser exibida.

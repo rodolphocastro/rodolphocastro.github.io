@@ -16,21 +16,15 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import { mapState, mapActions } from 'vuex'
+import { mapState } from 'vuex'
 import { RedeSocial } from '@/models/RedeSocial'
 
 @Component({
   name: 'redes-sociais-list',
-  computed: { ...mapState(['redesSociais']) },
-  methods: { ...mapActions(['fetchRedesSociais']) }
+  computed: { ...mapState(['redesSociais']) }
 })
 export default class RedesSociaisList extends Vue {
-  fetchRedesSociais!: () => void;
   redesSociais!: RedeSocial[];
-
-  mounted () {
-    this.fetchRedesSociais()
-  }
 }
 </script>
 

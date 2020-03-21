@@ -10,7 +10,7 @@
       </p>
       <p>Sou entusiasta com tecnologias, sempre buscando expandir o repertório de ferramentas disponíveis para solucionar os problemas apresentados por nossos clientes.</p>
       <p>
-        No tempo livre sou corredor de rua, marombeiro ávido e gamer!
+        No tempo livre sou corredor de rua, marombeiro e gamer!
         <em>(PC, Playstation4 e Nintendo)</em>
       </p>
     </article>

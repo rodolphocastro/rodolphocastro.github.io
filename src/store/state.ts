@@ -1,9 +1,9 @@
 import { RedeSocial } from '@/models/RedeSocial'
 
-export interface RootState {
+export interface RootStateStorable {
   redesSociais: RedeSocial[];
 }
 
-export const state: RootState = {
+export const state: RootStateStorable = {
   redesSociais: []
 }

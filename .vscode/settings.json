@@ -3,5 +3,9 @@
         "source.fixAll.eslint": true,
         "source.organizeImports": true
     },
-    "vetur.experimental.templateInterpolationService": true
+    "vetur.experimental.templateInterpolationService": true,
+    "eslint.validate": [
+        "vue",
+        "typescript"
+    ]
 }

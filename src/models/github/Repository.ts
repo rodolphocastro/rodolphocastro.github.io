@@ -1,3 +1,6 @@
+/**
+ * Repositorio do GitHub.
+ */
 export interface Repository {
     id: number;
     name: string;

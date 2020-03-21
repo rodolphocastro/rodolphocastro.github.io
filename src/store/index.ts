@@ -1,6 +1,7 @@
 import { RedeSocial } from '@/models/RedeSocial'
 import Vue from 'vue'
 import Vuex from 'vuex'
+import { projetos } from './projetos/'
 import { state } from './state'
 
 Vue.use(Vuex)
@@ -44,5 +45,6 @@ export default new Vuex.Store({
     }
   },
   modules: {
+    projetos
   }
 })

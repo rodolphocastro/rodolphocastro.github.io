@@ -1,0 +1,41 @@
+<template>
+  <section>
+    <h2>Meus Projetos</h2>
+    <p>
+      Estes são os repositórios
+      <em>públicos</em> nos quais participo.
+    </p>
+    <small>Eles são recuperados automaticamente do meu perfil no GitHub, então não estão em nenhuma ordem específica!</small>
+    <hr />
+    <template v-if="repositories.length">
+      <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>
+    </template>
+    <template v-else>
+      <p>Nada foi encontrado!</p>
+    </template>
+  </section>
+</template>
+
+<script lang="ts">
+import { Vue, Component } from 'vue-property-decorator'
+import { mapActions, mapState } from 'vuex'
+import { Repository } from '@/models/github/Repository'
+import ProjetoArticle from '@/components/projetos/ProjetoArticle.vue'
+
+@Component({
+  name: 'projetos',
+  computed: { ...mapState('projetos', ['repositories']) },
+  methods: { ...mapActions('projetos', ['fetchRepositories']) },
+  components: {
+    ProjetoArticle
+  }
+})
+export default class Projetos extends Vue {
+  fetchRepositories!: () => Promise<void>;
+  repositories!: Repository[];
+
+  async mounted () {
+    await this.fetchRepositories()
+  }
+}
+</script>

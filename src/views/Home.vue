@@ -25,12 +25,20 @@
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator'
 import RedesSociaisList from '@/components/home/RedesSociaisList.vue'
+import { mapActions } from 'vuex'
 
 @Component({
   name: 'home',
   components: {
     RedesSociaisList
-  }
+  },
+  methods: { ...mapActions(['fetchRedesSociais']) }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  fetchRedesSociais!: () => void;
+
+  mounted () {
+    this.fetchRedesSociais()
+  }
+}
 </script>

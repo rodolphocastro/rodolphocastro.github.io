@@ -1692,6 +1692,11 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
   integrity sha512-wMHVg2EOHaMRxbzgFJ9gtjOOCrI80OHLG14rxi28XwOW8ux6IiEbRCGGGqCtdAIg4FQCbW20k9RsT4y3gJlFug==
 
+awsm.css@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/awsm.css/-/awsm.css-3.0.4.tgz#59106202815bb416f9f605c613b200f10e9a077d"
+  integrity sha512-bkUm1GFaRUIFhAf7wXwXWtrQmVxuRvXS+/992sJaF+Vd8s9Y+C8SKcbJ2mgXg+FpUX+56RwIT90KfQZsa97u1w==
+
 babel-code-frame@^6.22.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"

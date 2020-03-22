@@ -8,7 +8,6 @@
     <p>
       <small>A <em>familiaridade</em> é medida de 0 a 5, com base nas vezes que utilizei essa tecnologia e o quão confortável sou com ela</small>
     </p>
-    <hr />
     <label>
       Filtrar
       <input type="text" placeholder="Filtre com base no nome ou descrição" v-model.trim="textoFiltro">
@@ -29,14 +28,13 @@
 import { Vue, Component } from 'vue-property-decorator'
 import { Tecnologia } from '@/models/Tecnologia'
 import { mapState, mapActions } from 'vuex'
-import TecnologiaArticle from '@/components/tecnologias/TecnologiaArticle.vue'
 
 @Component({
   name: 'tecnologias',
   computed: { ...mapState(['tecnologias']) },
   methods: { ...mapActions(['fetchTecnologias']) },
   components: {
-    TecnologiaArticle
+    TecnologiaArticle: () => import('@/components/tecnologias/TecnologiaArticle.vue')
   }
 })
 export default class Tecnologias extends Vue {

@@ -13,12 +13,11 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import NavigationBar from '@/components/NavigationBar.vue'
 
 @Component({
   name: 'app',
   components: {
-    NavigationBar
+    NavigationBar: () => import('@/components/NavigationBar.vue')
   }
 })
 export default class App extends Vue {

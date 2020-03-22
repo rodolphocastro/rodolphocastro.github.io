@@ -15,20 +15,15 @@
 
 <script lang='ts'>
 import { Vue, Component } from 'vue-property-decorator'
-import Sobre from '@/components/curriculo/Sobre.vue'
-import Experiencia from '@/components/curriculo/Experiencia.vue'
-import Formacao from '@/components/curriculo/Formacao.vue'
-import Certificacoes from '@/components/curriculo/Certificacoes.vue'
-import Idiomas from '@/components/curriculo/Idiomas.vue'
 
 @Component({
   name: 'curriculo',
   components: {
-    Sobre,
-    Experiencia,
-    Formacao,
-    Certificacoes,
-    Idiomas
+    Sobre: () => import('@/components/curriculo/Sobre.vue'),
+    Experiencia: () => import('@/components/curriculo/Experiencia.vue'),
+    Formacao: () => import('@/components/curriculo/Formacao.vue'),
+    Certificacoes: () => import('@/components/curriculo/Certificacoes.vue'),
+    Idiomas: () => import('@/components/curriculo/Idiomas.vue')
   }
 })
 export default class Curriculo extends Vue {}

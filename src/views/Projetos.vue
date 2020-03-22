@@ -20,14 +20,13 @@
 import { Vue, Component } from 'vue-property-decorator'
 import { mapActions, mapState } from 'vuex'
 import { Repository } from '@/models/github/Repository'
-import ProjetoArticle from '@/components/projetos/ProjetoArticle.vue'
 
 @Component({
   name: 'projetos',
   computed: { ...mapState('projetos', ['repositories']) },
   methods: { ...mapActions('projetos', ['fetchRepositories']) },
   components: {
-    ProjetoArticle
+    ProjetoArticle: () => import('@/components/projetos/ProjetoArticle.vue')
   }
 })
 export default class Projetos extends Vue {

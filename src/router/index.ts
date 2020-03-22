@@ -1,14 +1,24 @@
 import Home from '@/views/Home.vue'
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import VueRouter, { RouteConfig } from 'vue-router'
 
 Vue.use(VueRouter)
 
-const routes = [
+const routes: RouteConfig[] = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/curriculo',
+    name: 'Curriculo',
+    component: () => import('@/views/Curriculo.vue')
+  },
+  {
+    path: '/tecnologias',
+    name: 'Tecnologias',
+    component: () => import('@/views/Tecnologias.vue')
   },
   {
     path: '/projetos',

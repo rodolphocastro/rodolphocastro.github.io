@@ -5,7 +5,7 @@
       Estes são os repositórios
       <em>públicos</em> nos quais participo.
     </p>
-    <small>Eles são recuperados automaticamente do meu perfil no GitHub, então não estão em nenhuma ordem específica!</small>
+    <small>Recuperados automaticamente do meu perfil no GitHub. Os projetos executados para clientes podem ser encontrados em meu perfil do LinkedIn.</small>
     <hr />
     <template v-if="repositories.length">
       <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>
@@ -20,14 +20,13 @@
 import { Vue, Component } from 'vue-property-decorator'
 import { mapActions, mapState } from 'vuex'
 import { Repository } from '@/models/github/Repository'
-import ProjetoArticle from '@/components/projetos/ProjetoArticle.vue'
 
 @Component({
   name: 'projetos',
   computed: { ...mapState('projetos', ['repositories']) },
   methods: { ...mapActions('projetos', ['fetchRepositories']) },
   components: {
-    ProjetoArticle
+    ProjetoArticle: () => import('@/components/projetos/ProjetoArticle.vue')
   }
 })
 export default class Projetos extends Vue {

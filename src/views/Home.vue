@@ -24,13 +24,12 @@
 
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator'
-import RedesSociaisList from '@/components/home/RedesSociaisList.vue'
 import { mapActions } from 'vuex'
 
 @Component({
   name: 'home',
   components: {
-    RedesSociaisList
+    RedesSociaisList: () => import('@/components/home/RedesSociaisList.vue')
   },
   methods: { ...mapActions(['fetchRedesSociais']) }
 })

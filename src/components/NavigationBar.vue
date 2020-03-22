@@ -8,8 +8,20 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{ name: 'Projetos' }">
+        <router-link :to="{ name: 'Curriculo' }">
+          <font-awesome-icon :icon="['fas', 'file-contract']"></font-awesome-icon>
+          Currículo
+        </router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'Tecnologias' }">
           <font-awesome-icon :icon="['fas', 'code']"></font-awesome-icon>
+          Tecnologias
+        </router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'Projetos' }">
+          <font-awesome-icon :icon="['fas', 'box-open']"></font-awesome-icon>
           Projetos
         </router-link>
       </li>

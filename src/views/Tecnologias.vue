@@ -2,11 +2,14 @@
   <section>
     <h2>Tecnologias</h2>
     <p>
-      Estas são as <em>principais</em> tecnologias com as quais trabalho
+      Estas são as
+      <em>principais</em> tecnologias com as quais trabalho
     </p>
     <hr />
     <template v-if="tecnologias.length">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quis totam corrupti pariatur neque laudantium nisi. Suscipit rem magni accusamus dolores earum totam ipsum odio nisi nobis, corporis omnis quaerat!</p>
+      <dl>
+        <tecnologia-article v-for="tecnologia in tecnologias" :key="tecnologia.name" :tech="tecnologia"></tecnologia-article>
+      </dl>
     </template>
     <template v-else>
       <p>Nada foi encontrado!</p>
@@ -16,16 +19,24 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
-import { Tecnologia } from '../models/Tecnologia'
+import { Tecnologia } from '@/models/Tecnologia'
 import { mapState, mapActions } from 'vuex'
+import TecnologiaArticle from '@/components/tecnologias/TecnologiaArticle.vue'
 
 @Component({
   name: 'tecnologias',
   computed: { ...mapState(['tecnologias']) },
-  methods: { ...mapActions(['fetchTecnologias']) }
+  methods: { ...mapActions(['fetchTecnologias']) },
+  components: {
+    TecnologiaArticle
+  }
 })
 export default class Tecnologias extends Vue {
-  tecnologias!: Tecnologia[];
   private fetchTecnologias!: () => void;
+  tecnologias!: Tecnologia[];
+
+  mounted () {
+    this.fetchTecnologias()
+  }
 }
 </script>

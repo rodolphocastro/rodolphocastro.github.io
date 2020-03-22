@@ -188,6 +188,41 @@ export default new Vuex.Store({
           stars: 5,
           techUrl: new URL('https://powerbi.microsoft.com/en-us/'),
           techIcon: { faType: 'fab', faIcon: 'microsoft' }
+        },
+        {
+          name: 'Sql Server',
+          description: 'Banco de Dados relacionais da Microsoft',
+          stars: 5,
+          techUrl: new URL('https://docs.microsoft.com/en-us/sql/?view=sql-server-ver15'),
+          techIcon: { faType: 'fas', faIcon: 'database' }
+        },
+        {
+          name: 'MySQL',
+          description: 'Banco de Dados relacionais, de código aberto, da Oracle',
+          stars: 3,
+          techUrl: new URL('https://www.mysql.com/'),
+          techIcon: { faType: 'fas', faIcon: 'database' }
+        },
+        {
+          name: 'MariaDB',
+          description: 'Banco de Dados relacionais, de código aberto, feito pelos desenvolvedores originais do MySQL e focado em manter-se como software livre',
+          stars: 4,
+          techUrl: new URL('https://mariadb.org/'),
+          techIcon: { faType: 'fas', faIcon: 'database' }
+        },
+        {
+          name: 'MongoDB',
+          description: 'Banco de Dados não relacional, de código aberto, orientado a documentos',
+          stars: 4,
+          techUrl: new URL('https://www.mongodb.com/'),
+          techIcon: { faType: 'fas', faIcon: 'database' }
+        },
+        {
+          name: 'Cosmos DB',
+          description: 'Banco de Dados multimodal da Microsoft, nativo á Cloud e facilmente escalável a nível global',
+          stars: 3,
+          techUrl: new URL('https://docs.microsoft.com/en-us/azure/cosmos-db/introduction'),
+          techIcon: { faType: 'fas', faIcon: 'database' }
         }
       ]
       commit('setTecnologias', tecnologias)

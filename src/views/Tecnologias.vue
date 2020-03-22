@@ -10,8 +10,8 @@
     </p>
     <hr />
     <label>
-      Buscar
-      <input type="text" placeholder="Microsoft, Open Source, Databases..." v-model.trim="textoFiltro">
+      Filtrar
+      <input type="text" placeholder="Filtre com base no nome ou descrição" v-model.trim="textoFiltro">
     </label>
     <hr />
     <template v-if="tecnologiasFiltradas.length">

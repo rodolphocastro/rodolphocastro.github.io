@@ -9,9 +9,14 @@
       <small>A <em>familiaridade</em> é medida de 0 a 5, com base nas vezes que utilizei essa tecnologia e o quão confortável sou com ela</small>
     </p>
     <hr />
-    <template v-if="tecnologias.length">
+    <label>
+      Buscar
+      <input type="text" placeholder="Microsoft, Open Source, Databases..." v-model.trim="textoFiltro">
+    </label>
+    <hr />
+    <template v-if="tecnologiasFiltradas.length">
       <dl>
-        <tecnologia-article v-for="tecnologia in tecnologias" :key="tecnologia.name" :tech="tecnologia"></tecnologia-article>
+        <tecnologia-article v-for="tecnologia in tecnologiasFiltradas" :key="tecnologia.name" :tech="tecnologia"></tecnologia-article>
       </dl>
     </template>
     <template v-else>
@@ -37,6 +42,18 @@ import TecnologiaArticle from '@/components/tecnologias/TecnologiaArticle.vue'
 export default class Tecnologias extends Vue {
   private fetchTecnologias!: () => void;
   tecnologias!: Tecnologia[];
+  textoFiltro = '';
+
+  get tecnologiasFiltradas (): Tecnologia[] {
+    if (this.textoFiltro) {
+      return this.tecnologias.filter(t =>
+        t.name.includes(this.textoFiltro) ||
+        t.description.includes(this.textoFiltro)
+      )
+    }
+
+    return this.tecnologias
+  }
 
   mounted () {
     this.fetchTecnologias()

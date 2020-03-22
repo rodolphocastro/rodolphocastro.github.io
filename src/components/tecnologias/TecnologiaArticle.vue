@@ -9,7 +9,7 @@
     <dd>
       <p><em>{{tech.description}}</em></p>
       <label>
-        Avaliação:
+        Familiaridade:
         <meter min="0" max="5" :value="tech.stars"></meter>
       </label>
       <p>

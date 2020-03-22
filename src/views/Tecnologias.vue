@@ -3,7 +3,10 @@
     <h2>Tecnologias</h2>
     <p>
       Estas são as
-      <em>principais</em> tecnologias com as quais trabalho
+      <em>principais</em> tecnologias com as quais trabalho.
+    </p>
+    <p>
+      <small>A <em>familiaridade</em> é medida de 0 a 5, com base nas vezes que utilizei essa tecnologia e o quão confortável sou com ela</small>
     </p>
     <hr />
     <template v-if="tecnologias.length">

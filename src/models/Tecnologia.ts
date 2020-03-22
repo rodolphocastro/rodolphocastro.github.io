@@ -10,3 +10,5 @@ export interface Tecnologia {
   techUrl: URL;
   techIcon?: FontAwesomeIcon;
 }
+
+// TODO: Adicionar tags para permitir filtros

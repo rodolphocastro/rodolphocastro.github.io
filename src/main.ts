@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faLinkedin, faMedium, faTelegram, faMicrosoft, faVuejs, faDocker, faJs, faGit, faJenkins, faHtml5, faCss3, faAws, faPython } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faMedium, faTelegram, faMicrosoft, faVuejs, faDocker, faJs, faGit, faJenkins, faHtml5, faCss3, faAws, faPython, faRProject } from '@fortawesome/free-brands-svg-icons'
 import { faCode, faHome, faLink, faQuestion, faBoxOpen, faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import Vue from 'vue'
@@ -18,7 +18,7 @@ library.add(
   faTelegram, faMicrosoft, faVuejs,
   faDocker, faJs, faGit,
   faJenkins, faHtml5, faCss3,
-  faAws, faPython)
+  faAws, faPython, faRProject)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

@@ -183,6 +183,13 @@ export default new Vuex.Store({
           techIcon: { faType: 'fab', faIcon: 'python' }
         },
         {
+          name: 'R',
+          description: 'Linguagem e ambiente para computação estatística e gráfica',
+          stars: 3,
+          techUrl: new URL('https://www.r-project.org/'),
+          techIcon: { faType: 'fab', faIcon: 'r-project' }
+        },
+        {
           name: 'PowerBi',
           description: 'Software para visualização e apresentação de dados, dashboards e relatórios',
           stars: 5,

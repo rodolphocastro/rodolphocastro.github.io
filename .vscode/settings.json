@@ -1,11 +1,11 @@
 {
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.organizeImports": true
+        "source.fixAll.eslint": true
     },
     "vetur.experimental.templateInterpolationService": true,
     "eslint.validate": [
         "vue",
         "typescript"
-    ]
+    ],
+    "editor.minimap.enabled": false
 }

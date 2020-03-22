@@ -5,7 +5,7 @@
       Estes são os repositórios
       <em>públicos</em> nos quais participo.
     </p>
-    <small>Eles são recuperados automaticamente do meu perfil no GitHub, então não estão em nenhuma ordem específica!</small>
+    <small>Recuperados automaticamente do meu perfil no GitHub. Os projetos executados para clientes podem ser encontrados em meu perfil do LinkedIn.</small>
     <hr />
     <template v-if="repositories.length">
       <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>

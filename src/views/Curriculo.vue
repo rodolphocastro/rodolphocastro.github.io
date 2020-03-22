@@ -19,7 +19,7 @@ import Sobre from '@/components/curriculo/Sobre.vue'
 import Experiencia from '@/components/curriculo/Experiencia.vue'
 import Formacao from '@/components/curriculo/Formacao.vue'
 import Certificacoes from '@/components/curriculo/Certificacoes.vue'
-import Idiomas from '@/components/curriculo/Idiomas'
+import Idiomas from '@/components/curriculo/Idiomas.vue'
 
 @Component({
   name: 'curriculo',

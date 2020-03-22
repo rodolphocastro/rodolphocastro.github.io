@@ -45,14 +45,17 @@ export default class Tecnologias extends Vue {
   textoFiltro = '';
 
   get tecnologiasFiltradas (): Tecnologia[] {
-    if (this.textoFiltro) {
-      return this.tecnologias.filter(t =>
-        t.name.includes(this.textoFiltro) ||
-        t.description.includes(this.textoFiltro)
+    const { tecnologias, textoFiltro } = this
+    const filtroUpper = textoFiltro.toUpperCase()
+
+    if (filtroUpper) {
+      return tecnologias.filter(t =>
+        t.name.toUpperCase().includes(filtroUpper) ||
+        t.description.toUpperCase().includes(filtroUpper)
       )
     }
 
-    return this.tecnologias
+    return tecnologias
   }
 
   mounted () {

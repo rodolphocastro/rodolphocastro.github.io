@@ -39,6 +39,12 @@ export default new Vuex.Store({
           redeIcon: { faType: 'fab', faIcon: 'medium' }
         },
         {
+          name: 'Dev.To',
+          username: '@ardc_overflow',
+          profileUrl: new URL('https://dev.to/ardc_overflow'),
+          redeIcon: { faType: 'fab', faIcon: 'dev' }
+        },
+        {
           name: 'Telegram',
           username: '@AlvesRC',
           profileUrl: new URL('https://t.me/AlvesRC'),

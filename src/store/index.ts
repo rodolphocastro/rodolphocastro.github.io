@@ -2,6 +2,7 @@ import { RedeSocial } from '@/models/RedeSocial'
 import Vue from 'vue'
 import Vuex from 'vuex'
 import { projetos } from './projetos/'
+import { posts } from './posts/'
 import { state } from './state'
 import { Tecnologia } from '@/models/Tecnologia'
 
@@ -248,6 +249,7 @@ export default new Vuex.Store({
     }
   },
   modules: {
-    projetos
+    projetos,
+    posts
   }
 })

@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from './fontAwesomeIcon'
+import { FontAwesomeIcon } from './FontAwesomeIcon'
 
 /**
  * Tecnologia a ser listada no site.

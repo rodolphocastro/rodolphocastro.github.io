@@ -4,8 +4,8 @@ Remove-Item .\img\ -Recurse -Force
 Remove-Item .\favicon.ico -Force
 Remove-Item .\index.html -Force
 
-yarn install
+npm install
 
-yarn build
+npm run build
 
 Move-Item -Path .\dist\** -Destination .

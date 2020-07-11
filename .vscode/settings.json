@@ -1,11 +1,18 @@
 {
+    "vetur.experimental.templateInterpolationService": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "vetur.experimental.templateInterpolationService": true,
     "eslint.validate": [
         "vue",
-        "typescript"
+        "typescript",
+        "ts"
+    ],
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "vue",
+        "HTML (EEx)",
+        "HTML (Eex)"
     ],
     "editor.minimap.enabled": false
 }

@@ -5,10 +5,20 @@
       Estes são os repositórios
       <em>públicos</em> nos quais participo.
     </p>
-    <small>Recuperados automaticamente do meu perfil no GitHub. Os projetos executados para clientes podem ser encontrados em meu perfil do LinkedIn.</small>
+    <p>
+      <small>Recuperados automaticamente do meu perfil no GitHub. Os projetos executados para clientes podem ser encontrados em meu perfil do LinkedIn.</small>
+    </p>
+    <label>
+      Filtrar
+      <input
+        type="text"
+        placeholder="Filtre com base no nome, tópico ou linguagem"
+        v-model.trim="textoFiltro"
+      />
+    </label>
     <hr />
     <template v-if="repositories.length">
-      <projeto-article v-for="repo in repositories" :key="repo.id" :repo="repo"></projeto-article>
+      <projeto-article v-for="repo in repositoriosFiltrados" :key="repo.id" :repo="repo"></projeto-article>
     </template>
     <template v-else>
       <p>Nada foi encontrado!</p>
@@ -32,6 +42,21 @@ import { Repository } from '@/models/github/Repository'
 export default class Projetos extends Vue {
   fetchRepositories!: () => Promise<void>;
   repositories!: Repository[];
+  textoFiltro = '';
+
+  get repositoriosFiltrados (): Repository[] {
+    const { textoFiltro, repositories } = this
+    const filtroUpper = textoFiltro.toUpperCase()
+
+    if (filtroUpper) {
+      return repositories.filter(r =>
+        r.name.toUpperCase().includes(filtroUpper) ||
+        r.language?.toUpperCase().includes(filtroUpper) ||
+        r.topics.map(t => t.toUpperCase()).some(t => t.includes(filtroUpper)))
+    }
+
+    return repositories
+  }
 
   async mounted () {
     await this.fetchRepositories()

@@ -35,6 +35,8 @@ export default class ProjetoArticle extends Vue {
   flex-flow: row;
   flex-wrap: wrap;
   margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: #fd9a49 solid 1px;
 }
 
 .pills > p {
@@ -49,6 +51,11 @@ export default class ProjetoArticle extends Vue {
   background-color: #fd9a49;
   border-radius: .25em;
   font-weight: bold;
+}
+
+.pills > span:hover {
+  transition-duration: 200ms;
+  background-color:#fdaf49;
 }
 
 a {

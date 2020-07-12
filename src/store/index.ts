@@ -114,9 +114,16 @@ export default new Vuex.Store({
         {
           name: 'Vue JS',
           description: 'Framework javascript progressivo, focado em prover interfaces gráficas para usuários.',
-          stars: 4,
+          stars: 5,
           techUrl: new URL('https://vuejs.org/v2/guide/'),
           techIcon: { faType: 'fab', faIcon: 'vuejs' }
+        },
+        {
+          name: 'Svelte',
+          description: 'Framework javascript reativo, focado em um maior esforço na compilação do que na execução.',
+          stars: 3,
+          techUrl: new URL('https://svelte.dev/'),
+          techIcon: { faType: 'fab', faIcon: 'js' }
         },
         {
           name: 'Javascript',
@@ -131,6 +138,13 @@ export default new Vuex.Store({
           stars: 4,
           techUrl: new URL('https://www.typescriptlang.org/docs/home'),
           techIcon: { faType: 'fab', faIcon: 'microsoft' }
+        },
+        {
+          name: 'Deno',
+          description: 'Runtime baseado para Javascript e Typescript escrito em RUST e seguro por padrão. Uma alternativa ao Node.',
+          stars: 3,
+          techUrl: new URL('https://deno.land/'),
+          techIcon: { faType: 'fas', faIcon: 'dragon' }
         },
         {
           name: 'Docker',

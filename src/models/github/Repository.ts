@@ -7,4 +7,6 @@ export interface Repository {
     full_name: string;
     description: string;
     html_url: URL;
+    topics: string[];
+    language: string;
 }

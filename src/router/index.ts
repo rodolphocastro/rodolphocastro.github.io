@@ -11,6 +11,11 @@ const routes: RouteConfig[] = [
     component: Home
   },
   {
+    path: '/posts',
+    name: 'Posts',
+    component: () => import('@/views/Posts.vue')
+  },
+  {
     path: '/curriculo',
     name: 'Curriculo',
     component: () => import('@/views/Curriculo.vue')

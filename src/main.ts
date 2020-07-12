@@ -6,6 +6,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import { useAppInsights } from './services/AppInsights'
 
 // Adicionando ícones do FontAwesome padrão
 library.add(
@@ -23,6 +24,7 @@ library.add(
   faDev, faYoutube)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+useAppInsights().trackEvent({ name: 'App Loaded!' })
 
 Vue.config.productionTip = false
 

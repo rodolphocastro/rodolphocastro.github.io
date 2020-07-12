@@ -38,3 +38,4 @@ npm-debug.log
 yarn-error.log
 
 # End of https://www.gitignore.io/api/vue,vuejs,visualstudiocode
+.env

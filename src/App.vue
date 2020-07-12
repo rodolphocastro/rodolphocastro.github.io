@@ -28,8 +28,23 @@ export default class App extends Vue {
 <style src='awsm.css/dist/awsm_theme_black.min.css'>
 </style>
 
-<style scoped>
+<style>
 h1 {
   text-overflow: ellipsis;
+}
+
+.loading-message {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.loading-message > * {
+  display: block;
+  width: 100%;
+  flex-grow: 1;
 }
 </style>

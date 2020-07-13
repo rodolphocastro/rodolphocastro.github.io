@@ -17,7 +17,10 @@
       />
     </label>
     <hr />
-    <template v-if="repositories.length">
+    <template v-if="loading">
+      <loading></loading>
+    </template>
+    <template v-else-if="repositories.length">
       <projeto-article v-for="repo in repositoriosFiltrados" :key="repo.id" :repo="repo"></projeto-article>
     </template>
     <template v-else>
@@ -33,15 +36,17 @@ import { Repository } from '@/models/github/Repository'
 
 @Component({
   name: 'projetos',
-  computed: { ...mapState('projetos', ['repositories']) },
+  computed: { ...mapState('projetos', ['repositories', 'loading']) },
   methods: { ...mapActions('projetos', ['fetchRepositories']) },
   components: {
-    ProjetoArticle: () => import('@/components/projetos/ProjetoArticle.vue')
+    ProjetoArticle: () => import('@/components/projetos/ProjetoArticle.vue'),
+    loading: () => import('@/components/LoadingMessage.vue')
   }
 })
 export default class Projetos extends Vue {
   fetchRepositories!: () => Promise<void>;
   repositories!: Repository[];
+  loading!: boolean;
   textoFiltro = '';
 
   get repositoriosFiltrados (): Repository[] {

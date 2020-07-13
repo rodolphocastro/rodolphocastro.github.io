@@ -13,11 +13,14 @@ const gitHubApi = axios.create({
 
 export const actions: ActionTree<ProjetosStateStorable, RootStateStorable> = {
   async fetchRepositories ({ commit }) {
+    commit('setLoading', true)
     try {
       const response = await gitHubApi.get<Repository[]>('/users/rodolphocastro/repos')
       commit('setRepositories', response.data)
     } catch (error) {
 
+    } finally {
+      commit('setLoading', false)
     }
   }
 }

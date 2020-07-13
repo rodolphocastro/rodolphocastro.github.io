@@ -5,5 +5,8 @@ import { PostStateStorable } from './state'
 export const mutations: MutationTree<PostStateStorable> = {
   setPosts (state, novosPosts: Post[]) {
     state.posts = novosPosts
+  },
+  setLoading (state, newFlag: boolean) {
+    state.loading = newFlag
   }
 }

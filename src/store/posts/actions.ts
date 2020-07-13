@@ -10,11 +10,14 @@ const devtoApi = axios.create({
 
 export const actions: ActionTree<PostStateStorable, RootStateStorable> = {
   async fetchPosts ({ commit }) {
+    commit('setLoading', true)
     try {
       const response = await devtoApi.get<Post[]>('/articles?username=ardc_overflow')
       commit('setPosts', response.data)
     } catch (error) {
 
+    } finally {
+      commit('setLoading', false)
     }
   }
 }

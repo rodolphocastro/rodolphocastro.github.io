@@ -11,7 +11,9 @@
       <loading></loading>
     </template>
     <template v-else-if="posts.length">
-      <post-article v-for="post in posts" v-bind:key="post.id" :post="post"></post-article>
+      <transition-group name="list">
+        <post-article v-for="post in posts" v-bind:key="post.id" :post="post"></post-article>
+      </transition-group>
     </template>
     <template v-else>
       <p>Nada foi encontrado!</p>
@@ -43,3 +45,13 @@ export default class Posts extends Vue {
   }
 }
 </script>
+
+<style scoped>
+.list-enter-active, .list-leave-active {
+  transition: all 2s;
+}
+.list-enter, .list-leave-to {
+  opacity: 0;
+  transform: translateX(100px);
+}
+</style>

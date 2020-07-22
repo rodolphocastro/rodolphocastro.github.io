@@ -6,7 +6,9 @@
       <navigation-bar></navigation-bar>
     </header>
     <main>
-      <router-view/>
+      <transition name="fade">
+        <router-view/>
+      </transition>
     </main>
   </div>
 </template>
@@ -31,5 +33,13 @@ export default class App extends Vue {
 <style scoped>
 h1 {
   text-overflow: ellipsis;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.50s ease-in-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 </style>

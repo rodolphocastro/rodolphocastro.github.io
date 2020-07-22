@@ -13,7 +13,15 @@ export const actions: ActionTree<PostStateStorable, RootStateStorable> = {
     commit('setLoading', true)
     try {
       const response = await devtoApi.get<Post[]>('/articles?username=ardc_overflow')
-      commit('setPosts', response.data)
+      const staggered: Post[] = []
+      for (let pIndex = 0; pIndex < response.data.length; pIndex++) {
+        const post = response.data[pIndex]
+        const delay = pIndex * 750
+        setTimeout(() => {
+          staggered.push(post)
+          commit('setPosts', staggered)
+        }, delay)
+      }
     } catch (error) {
 
     } finally {

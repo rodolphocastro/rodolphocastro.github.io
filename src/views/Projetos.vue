@@ -21,7 +21,9 @@
       <loading></loading>
     </template>
     <template v-else-if="repositories.length">
-      <projeto-article v-for="repo in repositoriosFiltrados" :key="repo.id" :repo="repo"></projeto-article>
+      <transition-group name="list">
+        <projeto-article v-for="repo in repositoriosFiltrados" :key="repo.id" :repo="repo"></projeto-article>
+      </transition-group>
     </template>
     <template v-else>
       <p>Nada foi encontrado!</p>
@@ -68,3 +70,13 @@ export default class Projetos extends Vue {
   }
 }
 </script>
+
+<style scoped>
+.list-enter-active, .list-leave-active {
+  transition: all 500ms;
+}
+.list-enter, .list-leave-to {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+</style>

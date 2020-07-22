@@ -16,7 +16,14 @@ export const actions: ActionTree<ProjetosStateStorable, RootStateStorable> = {
     commit('setLoading', true)
     try {
       const response = await gitHubApi.get<Repository[]>('/users/rodolphocastro/repos')
-      commit('setRepositories', response.data)
+      const staggered: Repository[] = []
+      response.data.forEach((r, i) => {
+        const delay = i * 300 // 300m -> Time to wait for each item in the array
+        setTimeout(() => {
+          staggered.push(r)
+          commit('setRepositories', staggered)
+        }, delay)
+      })
     } catch (error) {
 
     } finally {

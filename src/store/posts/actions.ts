@@ -1,11 +1,13 @@
 import { Post } from '@/models/devto/Post'
 import axios from 'axios'
+import { cacheAdapterEnhancer } from 'axios-extensions'
 import { ActionTree } from 'vuex'
 import { RootStateStorable } from '../state'
 import { PostStateStorable } from './state'
 
 const devtoApi = axios.create({
-  baseURL: 'https://dev.to/api'
+  baseURL: 'https://dev.to/api',
+  adapter: cacheAdapterEnhancer(axios.defaults.adapter as any)
 })
 
 export const actions: ActionTree<PostStateStorable, RootStateStorable> = {

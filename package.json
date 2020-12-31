@@ -1,6 +1,6 @@
 {
   "name": "rodolphocastro.github.io",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -46,6 +46,5 @@
     "typescript": "~3.7.5",
     "vue-template-compiler": "^2.6.11"
   },
-  "_id": "rodolphocastro.github.io@0.1.0",
   "readme": "ERROR: No README data found!"
 }

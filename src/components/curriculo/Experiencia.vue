@@ -2,11 +2,19 @@
   <article>
     <h3>Experiência</h3>
     <dl>
+      <dt>Trimble Transportation LATAM</dt>
+      <dd>
+        <ol>
+          <li>
+            <strong>Fullstack Engineer SR</strong>, 08/2020 - Atualmente
+          </li>
+        </ol>
+      </dd>
       <dt>MPS Informática ltda</dt>
       <dd>
         <ol>
           <li>
-            <strong>Analista de Sistemas</strong>, 05/2018 - Atualmente
+            <strong>Analista de Sistemas</strong>, 05/2018 - 08/2020
           </li>
           <li>
             <strong>Desenvolvedor</strong>, 01/2017 - 05/2018

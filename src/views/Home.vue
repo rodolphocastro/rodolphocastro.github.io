@@ -6,12 +6,17 @@
       <p>
         Meu nome é
         <strong>Rodolpho Alves</strong>, atuo como
-        <em>Arquiteto de Soluções</em> com ênfase na nuvem.
+        <em>Fullstack Engineer</em> com em sistemas desenvolvidos e publicados
+        através da plataforma <em>.NET</em>.
       </p>
-      <p>Sou entusiasta com tecnologias, sempre buscando expandir o repertório de ferramentas disponíveis para solucionar os problemas apresentados por nossos clientes.</p>
+      <p>
+        Sou entusiasta com tecnologias, sempre buscando expandir o repertório de
+        ferramentas disponíveis para solucionar os problemas apresentados por
+        nossos clientes.
+      </p>
       <p>
         No tempo livre sou corredor de rua, marombeiro e gamer!
-        <em>(PC, Playstation4 e Nintendo)</em>
+        <em>(PC, Playstation e emuladores)</em>
       </p>
     </article>
     <article>

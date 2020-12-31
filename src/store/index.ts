@@ -100,7 +100,7 @@ export default new Vuex.Store({
         {
           name: 'Xamarin',
           description: 'Framework para aplicativos mobile, crossplatform, do .NET Framework',
-          stars: 4,
+          stars: 5,
           techUrl: new URL('https://docs.microsoft.com/en-us/xamarin/'),
           techIcon: { faType: 'fab', faIcon: 'microsoft' }
         },
@@ -126,6 +126,13 @@ export default new Vuex.Store({
           techIcon: { faType: 'fab', faIcon: 'js' }
         },
         {
+          name: 'React',
+          description: 'Framework javascript para criação rápida e interativa de interfaces web e mobile',
+          stars: 2,
+          techUrl: new URL('https://reactjs.org/'),
+          techIcon: { faType: 'fab', faIcon: 'react' }
+        },
+        {
           name: 'Javascript',
           description: 'Linguagem de programação interpretada, permite a implementação de funcionalidades complexas em páginas web (e até outras plataformas)',
           stars: 3,
@@ -142,7 +149,7 @@ export default new Vuex.Store({
         {
           name: 'Deno',
           description: 'Runtime baseado para Javascript e Typescript escrito em RUST e seguro por padrão. Uma alternativa ao Node.',
-          stars: 3,
+          stars: 4,
           techUrl: new URL('https://deno.land/'),
           techIcon: { faType: 'fas', faIcon: 'dragon' }
         },
@@ -259,7 +266,7 @@ export default new Vuex.Store({
           techIcon: { faType: 'fas', faIcon: 'database' }
         }
       ]
-      commit('setTecnologias', tecnologias)
+      commit('setTecnologias', tecnologias.sort((t1, t2) => t2.stars - t1.stars))
     }
   },
   modules: {

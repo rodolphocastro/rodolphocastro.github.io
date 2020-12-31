@@ -22,3 +22,15 @@ npm run serve
 ```
 npm run lint
 ```
+
+### Test PWA mode
+
+Ensure you have `http-server-spa` server installed, if not then run `npm install -g http-server-spa`.
+
+Execute the build process (`npm run build`) and then run `http-server-spa dist/` to serve the App as a PWA.
+
+### Update icons for PWA
+
+Use the package `vue-pwa-asset-generator` to scaffold or update icons when needed.
+
+`npx vue-pwa-asset-generator -a {512x512 png or SVG file} -o public/img/icons/`

@@ -1,5 +1,6 @@
 import { Repository } from '@/models/github/Repository'
 import axios from 'axios'
+import { cacheAdapterEnhancer } from 'axios-extensions'
 import { ActionTree } from 'vuex'
 import { RootStateStorable } from '../state'
 import { ProjetosStateStorable } from './state'
@@ -8,7 +9,8 @@ const gitHubApi = axios.create({
   baseURL: 'https://api.github.com',
   headers: {
     Accept: 'application/vnd.github.mercy-preview+json'
-  }
+  },
+  adapter: cacheAdapterEnhancer(axios.defaults.adapter as any)
 })
 
 export const actions: ActionTree<ProjetosStateStorable, RootStateStorable> = {

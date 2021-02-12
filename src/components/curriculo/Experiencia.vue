@@ -2,11 +2,14 @@
   <article>
     <h3>Experiência</h3>
     <dl>
-      <dt>Trimble Transportation LATAM</dt>
+      <dt>Trimble Transportation inc</dt>
       <dd>
         <ol>
           <li>
-            <strong>Fullstack Engineer SR</strong>, 08/2020 - Atualmente
+            <strong>Engineering Manager</strong>, 02/2021 - Atualmente
+          </li>
+          <li>
+            <strong>Fullstack Engineer SR</strong>, 08/2020 - 02/2021
           </li>
         </ol>
       </dd>

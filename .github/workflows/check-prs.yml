@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      HUSKY: 0  # disable Husky hooks during CI
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

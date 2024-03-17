@@ -11,7 +11,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
-    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
     "@microsoft/applicationinsights-web": "^2.5.6",
     "awsm.css": "^3.0.4",
     "axios": "^0.19.2",

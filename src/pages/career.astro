@@ -1,11 +1,16 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 import { getEntry } from "astro:content";
 
-const careerIntro = await getEntry('career', 'intro')
+// fetch content entries
+const careerIntro = await getEntry("career", "intro");
+const workEntry = await getEntry("career", "work");
+const educationEntry = await getEntry("career", "education");
 
-const { Content } = await careerIntro.render()
-
+// render their markdowns into html
+const { Content: Intro } = await careerIntro.render();
+const { Content: Work } = await workEntry.render();
+const { Content: Education } = await educationEntry.render();
 ---
 
 <Layout title="Rodolpho's Homepage - Curriculum">
@@ -13,7 +18,15 @@ const { Content } = await careerIntro.render()
 		<h1>Curriculum Vitae</h1>
 		<article>
 			<h2>{careerIntro.data.title}</h2>
-			<Content />
+			<Intro />
+		</article>
+		<article>
+			<h2>{workEntry.data.title}</h2>
+			<Work />
+		</article>
+		<article>
+			<h2>{educationEntry.data.title}</h2>
+			<Education />
 		</article>
 	</main>
 </Layout>
@@ -54,7 +67,10 @@ const { Content } = await careerIntro.render()
 	.instructions {
 		margin-bottom: 2rem;
 		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		background: linear-gradient(
+			rgba(var(--accent-dark), 66%),
+			rgba(var(--accent-dark), 33%)
+		);
 		padding: 1.5rem;
 		border-radius: 8px;
 	}

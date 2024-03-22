@@ -14,6 +14,16 @@ Below is a quick overview of my role changes and what each role meant within tha
 
 ### Engineering Manager on Trimble
 
+As an Engineering Manager on Trimble I have taken on many Products and Team in different stages of their lifecycle, in my role as Manager I have:
+
+* Coached DevOps and Software Engineers to advance their careers and improve our Products
+* Worked with PX to make an official career roadmap for software engineers
+* Worked with Product Managers to ensure features were feasible, processes were in place to successfully release versions and artifacts built by my teams were up to our expected quality standards
+* Worked with Architecture Groups to set and guide the Organization to increase adoption and maturity of microservices and microfrontends
+* Worked with other Engineering Manager to set better Engineering standards across teams, ensuring quicker and more stable releases across the Trimble Instinct and Trimble Transportation Cloud ecosystem
+* Developed bots, using LLMs, to make information more widely available across the organization
+* Applied Team Topologies and Scrum@Scale techniques to ensure teams were engaged, had ownership of their artifacts and were able to improve themselves continuously
+
 ### Software Engineer on Trimble
 
 I joined Trimble as a Software Engineer to assist the Trimble ELD product (at the time it was still branded "eFleetSuite") into meeting the Canadian ELD mandate.
@@ -40,5 +50,3 @@ Within 30d of joining Trimble I became the Tech Lead for my squad, which further
 ## 2013 - 2015 Universidade Tecnológica Federal do Paraná
 
 * *Member* on **PET-CoCE** (April 2013 - April 2015)
-
-### Member of PET-CoCE on UTFPR

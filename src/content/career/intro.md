@@ -1,4 +1,6 @@
-# Intro
+---
+title: Introduction
+---
 
 I'm Rodolpho Alves, an Engineering Manager with Software Engineering background born and raised in Brazil. In this page and it's micro-posts you'll find more information about myself and my journey on Software Engineering.
 

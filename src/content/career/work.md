@@ -1,4 +1,6 @@
-# Work Experience
+---
+title: Work Experience
+---
 
 My professional journey started in 2013 as a member of a government-funded group for education and research while doing my Bachelor's degree. From then until now I have worked professionally on Brazilian and International companies as well as undertaking freelance projects for many customers.
 

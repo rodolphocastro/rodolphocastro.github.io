@@ -1,8 +1,11 @@
-import { defineCollection } from 'astro:content';
+import { z, defineCollection } from 'astro:content';
 
 const careerCollection = defineCollection(
     {  
-        type: 'content'
+        type: 'content',
+        schema: z.object({
+          title: z.string(),
+        })
     });
 
 //    This key should match your collection directory name in "src/content"

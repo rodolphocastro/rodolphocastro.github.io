@@ -7,11 +7,21 @@ export default defineConfig({
   locales: {
     root: {
       label: 'English 🇺🇸',
-      lang: 'en'
+      lang: 'en',
+      themeConfig: {
+        lastUpdated: {
+          text: 'Last Updated at',
+          formatOptions: {
+            hour12: true,
+            month: 'short',
+            day: '2-digit',
+          }
+        }
+      }
     },
     pt: {
       label: 'Português 🇧🇷',
-      lang: 'pt'
+      lang: 'pt',
     }
   },
   themeConfig: {
@@ -25,7 +35,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Posts', link: '/posts' },
       { text: 'Projects', link: '/markdown-examples' },
-      { text: 'Resume', link: '/markdown-examples' }
+      { text: 'Resume', link: '/curriculum' }
     ],
 
     sidebar: {

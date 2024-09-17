@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Rodolpho Alves' Website"
-  tagline: "Welcome to my blog and curriculum"
+  tagline: "Seja bem vindo ao meu site e currículo"
 
 features:
   - title: Blog Posts

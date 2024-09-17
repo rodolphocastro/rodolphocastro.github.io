@@ -43,7 +43,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/rodolphocastro/rodolphocastro.github.io/' }
+      { icon: 'github', link: 'https://github.com/rodolphocastro' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/rodolpho-alves93/' },
     ],
 
     footer: {

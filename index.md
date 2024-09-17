@@ -8,16 +8,19 @@ hero:
 
 features:
   - title: Blog Posts
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    icon: 📚
+    details: My thoughts around life and the software industry
     link: /posts
     linkText: See Posts
   - title: Projects
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    icon: ⚒️
+    details: Projects I have been working on
     link: /projects
     linkText: See Projects
   - title: Resume
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /posts
+    icon: 📝
+    details: My resume
+    link: /curriculum
     linkText: See Resume
 ---
 

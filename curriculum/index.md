@@ -43,27 +43,27 @@ Drafting out, with Product Managers and UX Leads, roadmap and features that were
 
 Using LLMs (such as GPT4 and LLAMA2) to support myself when coaching engineers or spreading information around the practices we were applying as well as creating agents that'd provide support to other Ops areas (such as PX, CX and Support itself) reducing the time needed for them to find an information they needed around the engineering squads.
 
-* **Feb 2021 - present**: Engineering Manager M2
-* **Aug 2020 - Feb 2021**: Software Engineer P3
+- **Feb 2021 - present**: Engineering Manager M2
+- **Aug 2020 - Feb 2021**: Software Engineer P3
 
 ### MPS Informática
 
-* **May 2018 - August 2020**: Software Analyst and Architect
-* **January 2017 - May 2018**: Software Developer
-* **June 2015 - December 2016**: Intern in Software Development
+- **May 2018 - August 2020**: Software Analyst and Architect
+- **January 2017 - May 2018**: Software Developer
+- **June 2015 - December 2016**: Intern in Software Development
 
 ### Universidade Tecnológica Federal do Paraná
 
-* **April 2013 - April 2015**: Scholarship on PET-CoCE program
+- **April 2013 - April 2015**: Scholarship on PET-CoCE program
 
 ## Languages
 
-| Language | Level |
-| -------- | ----- |
-| 🇧🇷 Brazilian Portuguese | Native |
-| 🇺🇸 English | Fluent |
-| 🇪🇸 Spanish | Intermediate |
-| 🇫🇷 French | Basic |
+| Language                | Level        |
+| ----------------------- | ------------ |
+| 🇧🇷 Brazilian Portuguese | Native       |
+| 🇺🇸 English              | Fluent       |
+| 🇪🇸 Spanish              | Intermediate |
+| 🇫🇷 French               | Basic        |
 
 ## Certificates
 

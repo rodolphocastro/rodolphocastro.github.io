@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      npm-dev:
+        applies-to: version-updates
+        dependency-type: development
+      npm-prod:
+        applies-to: version-updates
+        dependency-type: production
+      cybersecurity:
+        applies-to: security-updates
+        dependency-type: production

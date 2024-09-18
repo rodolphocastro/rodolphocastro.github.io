@@ -1,6 +1,6 @@
 ---
-title: "My Resume"
-description: "my professional resume"
+title: 'My Resume'
+description: 'my professional resume'
 lang: en
 lastUpdated: true
 ---

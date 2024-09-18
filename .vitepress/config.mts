@@ -1,4 +1,4 @@
-import { DefaultTheme, defineConfig } from 'vitepress'
+import { DefaultTheme, defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,49 +15,52 @@ export default defineConfig({
             hour12: true,
             month: 'short',
             day: '2-digit',
-          }
-        }
-      }
+          },
+        },
+      },
     },
     pt: {
       label: 'Português 🇧🇷',
       lang: 'pt',
-    }
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 
     search: {
-      provider: 'local'
+      provider: 'local',
     },
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Posts', link: '/posts' },
-      { text: 'Resume', link: '/curriculum' }
+      { text: 'Resume', link: '/curriculum' },
     ],
 
     sidebar: {
-      '/posts': postsSideBar()
+      '/posts': postsSideBar(),
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rodolphocastro' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/rodolpho-alves93/' },
+      {
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/in/rodolpho-alves93/',
+      },
     ],
 
     footer: {
-      message: "built with ❤️ using Vitepress",
-      copyright: "Copyright 2024-present Rodolpho Alves"
-    }
-  }
-})
+      message: 'built with ❤️ using Vitepress',
+      copyright: 'Copyright 2024-present Rodolpho Alves',
+    },
+  },
+});
 
 function postsSideBar(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: '1 - Why',
-      link: 'posts/001-why.md'
-    }
-  ]
+      link: 'posts/001-why.md',
+    },
+  ];
 }

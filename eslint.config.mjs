@@ -1,8 +1,8 @@
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
+import eslintConfigPrettier from "eslint-config-prettier";
 
 export default [
   {
     ignores: ['.vitepress/dist', '.vitepress/cache'],
   },
-  eslintPluginPrettierRecommended,
+  eslintConfigPrettier,
 ];

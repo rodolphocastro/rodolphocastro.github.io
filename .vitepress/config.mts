@@ -1,0 +1,54 @@
+import { createContentLoader, DefaultTheme, defineConfig } from 'vitepress';
+import { fromContentDataToBlogPost } from '../utils.mts';
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "Rodolpho's Alves Blog",
+  description: "Rodolpho's Alves personal blog and cv",
+  locales: {
+    root: {
+      label: 'English 🇺🇸',
+      lang: 'en',
+      themeConfig: {
+        lastUpdated: {
+          text: 'Last Updated at',
+          formatOptions: {
+            hour12: true,
+            month: 'short',
+            day: '2-digit',
+          },
+        },
+      },
+    },
+    pt: {
+      label: 'Português 🇧🇷',
+      lang: 'pt',
+    },
+  },
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+
+    search: {
+      provider: 'local',
+    },
+
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Posts', link: '/posts' },
+      { text: 'Resume', link: '/curriculum' },
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/rodolphocastro' },
+      {
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/in/rodolpho-alves93/',
+      },
+    ],
+
+    footer: {
+      message: 'built with ❤️ using Vitepress',
+      copyright: 'Copyright 2024-present Rodolpho Alves',
+    },
+  },
+});

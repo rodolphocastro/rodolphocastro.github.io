@@ -1,6 +1,6 @@
 ---
 title: Posts
-description: Index for all posts
+description: Índice para todos os posts
 published: false
 ---
 
@@ -10,4 +10,4 @@ published: false
 
 ## All posts
 
-There are {{ blogPosts.length }} posts, pick one from the sidebar or the cards below.
+Existem {{ blogPosts.length }} posts, escolha um na barra lateral ou nos cards abaixo.

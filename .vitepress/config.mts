@@ -1,4 +1,5 @@
-import { DefaultTheme, defineConfig } from 'vitepress';
+import { createContentLoader, DefaultTheme, defineConfig } from 'vitepress';
+import { fromContentDataToBlogPost } from '../utils.mts';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -37,10 +38,6 @@ export default defineConfig({
       { text: 'Resume', link: '/curriculum' },
     ],
 
-    sidebar: {
-      '/posts': postsSideBar(),
-    },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rodolphocastro' },
       {
@@ -55,12 +52,3 @@ export default defineConfig({
     },
   },
 });
-
-function postsSideBar(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: '1 - Why',
-      link: 'posts/001-why.md',
-    },
-  ];
-}

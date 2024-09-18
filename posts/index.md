@@ -11,6 +11,6 @@ published: false
 
 ## All posts
 
-There are {{ blogPosts.length }} posts, pick one from the sidebar or the cards below.
+There are {{ blogPosts.length }} posts, pick one from the cards below.
 
 <ArticleList :posts="blogPosts" />

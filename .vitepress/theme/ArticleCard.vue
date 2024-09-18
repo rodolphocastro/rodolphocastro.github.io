@@ -1,41 +1,42 @@
 <template>
-    <div class="card" @click="redirectToPost">
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.date }}</p>
-        <p>{{ post.author }}</p>
-    </div>
+  <div class="card" @click="redirectToPost">
+    <a>{{ post.title }}</a>
+    <p>{{ new Date(post.postDate).toLocaleDateString() }}</p>
+    <p>{{ post.author }}</p>
+  </div>
 </template>
 
 <script>
 export default {
-    props: {
-        post: {
-            type: Object,
-            required: true
-        }
+  props: {
+    post: {
+      type: Object,
+      required: true,
     },
-    methods: {
-        redirectToPost() {
-            window.location.href = this.post.url;
-        }
-    }
+  },
+  methods: {
+    redirectToPost() {
+      window.location.href = this.post.url;
+    },
+  },
 };
 </script>
 
 <style scoped>
 .card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
 }
 
-.card h2 {
-    font-size: 18px;
-    margin-bottom: 5px;
+.card a {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .card p {
-    font-size: 14px;
-    margin-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 </style>

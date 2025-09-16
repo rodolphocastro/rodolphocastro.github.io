@@ -14,3 +14,7 @@ updates:
       cybersecurity:
         applies-to: security-updates
         dependency-type: production
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'

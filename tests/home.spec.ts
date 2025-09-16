@@ -15,7 +15,9 @@ class HomePage {
   constructor(page: Page) {
     this.page = page;
 
-    this.titleLocator = this.page.getByRole('link', { name: "Rodolpho's Alves Blog" });
+    this.titleLocator = this.page.getByRole('link', {
+      name: "Rodolpho's Alves Blog",
+    });
     this.homeLink = this.page.getByRole('link', { name: 'Home' });
     this.postsLink = this.page.getByRole('link', { name: 'Posts' });
     this.resumeLink = this.page.getByRole('link', { name: 'Resume' });

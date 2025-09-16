@@ -11,6 +11,9 @@ class HomePage {
   readonly resumeLink: Locator;
   readonly githubLink: Locator;
   readonly linkedinLink: Locator;
+  readonly changeLanguageBtn: Locator;
+  readonly blogArticleLocator: Locator;
+  readonly resumeArticleLocator: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -23,6 +26,13 @@ class HomePage {
     this.resumeLink = this.page.getByRole('link', { name: 'Resume' });
     this.githubLink = this.page.getByRole('link', { name: 'github' });
     this.linkedinLink = this.page.getByRole('link', { name: 'linkedin' });
+    this.changeLanguageBtn = this.page.getByRole('button', { name: 'Change language' });    
+    this.blogArticleLocator = this.page.getByRole('article').filter({
+      hasText: 'Posts',
+    });
+    this.resumeArticleLocator = this.page.getByRole('article').filter({
+      hasText: 'Resume',
+    });    
   }
 
   /**
@@ -55,8 +65,30 @@ test.describe('Home page', () => {
     await expect(sut.resumeLink).toBeVisible();
   });
 
+  test('there should be a button to change the language', async ({ page }) => {
+    await expect(sut.changeLanguageBtn).toBeVisible();
+  });
+
   test('there should be links to social medias', async ({ page }) => {
     await expect(sut.githubLink).toBeVisible();
-    await expect(sut.linkedinLink).toBeVisible();
+    await expect(sut.linkedinLink).toBeVisible();    
+  });
+
+  test('there should be a posts section', async ({ page }) => {
+    const postsAria = `
+      - article:
+        - text: 📚
+        - heading "Blog Posts" [level=2]        
+      `;    
+    await expect(sut.blogArticleLocator).toMatchAriaSnapshot(postsAria);
+  });
+
+  test('there should be a resume section', async ({ page }) => {
+    const resumeAria = `
+    - article:
+      - text: 📝
+      - heading "Resume" [level=2]
+    `;
+    await expect(sut.resumeArticleLocator).toMatchAriaSnapshot(resumeAria);
   });
 });

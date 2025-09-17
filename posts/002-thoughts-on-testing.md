@@ -66,7 +66,7 @@ After some undesired bureaucracy (honestly, I've seen companies in the public se
 
 No fancy "inject loads of data using a Kafka connector that translates REST to Messages in CloudEvent spec" - plain and old prioritization plus isolating the things that (at the time) were not worth automating and turning them into _standards_.
 
-Our SDETs, at the time, were overwhelmed with lots of manual tests and the onerous ('member that bureaucracy?) release process so I decided I should give in to my inner engineer and step into their shoes to: 1. create more empathy with this part of their work and 2. _lead by example_.
+Our SDETs, at the time, were overwhelmed with lots of manual tests and the onerous ('member that bureaucracy?) release process so I decided I should give in to my inner engineer and step into their shoes to: 1. create more empathy with this part of their work, 2. _lead by example_ and 3. unburden them.
 
 Turns out that the simple thing was quite easy for me, that had zero experience with Playwright, to hack around in since I knew enough Typescript and it looked quite similar to Jest and Vitest (which I use on personal projects)!
 

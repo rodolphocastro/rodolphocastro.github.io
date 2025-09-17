@@ -50,10 +50,27 @@ test.describe('Posts page', () => {
             }
         });
 
+        await test.step('posts should be ordered by date, descending', async () => {
+            const articleCount = await sut.articlesLocator.count();
+            let previousDate: Date | null = null;
+
+            for (let i = 0; i < articleCount; i++) {
+                const article = sut.articlesLocator.nth(i);
+                const dateString = await article.getByLabel('Date').innerText();
+                const date = new Date(dateString);
+                
+                if (previousDate) {
+                    expect(date.valueOf()).toBeLessThanOrEqual(previousDate.valueOf());
+                }
+
+                previousDate = date;
+            }
+        });
+
         await test.step('clicking any article should navigate to the post page', async () => {
             const firstArticle = sut.articlesLocator.first();            
             await firstArticle.click();
             await expect(page).toHaveURL(/\/posts\/.+/);            
-        });
+        });        
     });
 });

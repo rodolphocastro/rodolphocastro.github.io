@@ -15,10 +15,10 @@ Ironic! It's been _almost_ an year since I last wrote on this post! I built the 
 
 Over the last few weeks I have been posed with questions that some elements within the system we work on have "lower quality". When asking stakeholders why they believe this is the case I'm met with some very different perceptions of what quality really means to them:
 
-* "the website is slow!"
-* "this doesn't work when ... happens"
-* "the button looks off!"
-* "we don't have metrics to track the system behavior, so it must lack quality!"
+- "the website is slow!"
+- "this doesn't work when ... happens"
+- "the button looks off!"
+- "we don't have metrics to track the system behavior, so it must lack quality!"
 
 This is easily debatable within the team and not something that I'll digress too much on but it is what got me thing on "what the heck is quality after all" - which is what I want to talk about today and got me to explore [Playwright](https://playwright.dev) hands-on and use it professionally and on this website.
 
@@ -28,8 +28,8 @@ This is easily debatable within the team and not something that I'll digress too
 
 Whenever I'm talking to a team member within an Engineering context there's two main chain of thoughts I tend to focus on:
 
-* Automated Tests (Unit, Integration, API, E2E) and Metrics (uptime, latency, error rate)
-* Solid Processes (Clearly written tickets, refinement, planning, release, observability, documentation)
+- Automated Tests (Unit, Integration, API, E2E) and Metrics (uptime, latency, error rate)
+- Solid Processes (Clearly written tickets, refinement, planning, release, observability, documentation)
 
 > Note: Before you curse me! I know this is a non-extensive list and there are many other different types of tests and approaches to ensure Quality! Those are the ones I focus on when dealing with Software Engineers so stick with me for the ride.
 
@@ -39,10 +39,10 @@ Automated Tests are usually the low hanging fruit when you step into a project. 
 
 On this context my knee-jerk reaction was to look at what KPIs we had around the automated portion, such as:
 
-* Coverage % (Unit and Integration), which averages to 80%
-* Uptime, which averages to 99.99999%
-* Error Rates, which vary by service and component but were okay for the critical path
-* Quantity of Automated E2E Tests x Manual E2E Tests, which had almost 10 automated tests for over 1000s of manual tests.
+- Coverage % (Unit and Integration), which averages to 80%
+- Uptime, which averages to 99.99999%
+- Error Rates, which vary by service and component but were okay for the critical path
+- Quantity of Automated E2E Tests x Manual E2E Tests, which had almost 10 automated tests for over 1000s of manual tests.
 
 So, being the Engineer I am and hyperfocused, it hit me with a resounding "OOOOOF" that we should immediately fix the E2E portion! Which led me down the rabbit hole of engaging with SDETs, Quality Guilds and the such on: having a test suite that is adoptable by SDETs and SEs alike.
 

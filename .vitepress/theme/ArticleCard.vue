@@ -1,6 +1,6 @@
 <template>
   <div class="card" @click="redirectToPost">
-    <h3 aria-label="Post title">{{ post.title }}</h3>    
+    <h3 aria-label="Post title">{{ post.title }}</h3>
     <p aria-label="Post date">
       {{ new Date(post.postDate).toLocaleDateString() }}
     </p>

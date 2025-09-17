@@ -23,11 +23,13 @@ export default {
     },
   },
   computed: {
-    rows() {          
+    rows() {
       // TODO: this area is a bit messy, needs refactor
-      // Sort posts by date descending        
-      const sortedPosts = this.posts.sort((a, b) => new Date(b.postDate).valueOf() - new Date(a.postDate).valueOf());   
-      console.table(this.posts);
+      // Sort posts by date descending
+      const sortedPosts = this.posts.sort(
+        (a, b) =>
+          new Date(b.postDate).valueOf() - new Date(a.postDate).valueOf(),
+      );
       const rows = [];
       let currentRow = [];
       for (let i = 0; i < sortedPosts.length; i++) {

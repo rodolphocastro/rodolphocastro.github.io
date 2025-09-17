@@ -8,10 +8,10 @@ hero:
 
 features:
   - title: Blog Posts
-    icon: 📚  
+    icon: 📚
     details: My thoughts around things in the industry
     link: /posts
-    linkText: See Posts  
+    linkText: See Posts
   - title: Resume
     icon: 📝
     details: My resume

@@ -28,13 +28,15 @@ class HomePage {
     this.resumeLink = this.page.getByRole('link', { name: 'Resume' });
     this.githubLink = this.page.getByRole('link', { name: 'github' });
     this.linkedinLink = this.page.getByRole('link', { name: 'linkedin' });
-    this.changeLanguageBtn = this.page.getByRole('button', { name: 'Change language' });    
+    this.changeLanguageBtn = this.page.getByRole('button', {
+      name: 'Change language',
+    });
     this.blogArticleLocator = this.page.getByRole('article').filter({
       hasText: 'Posts',
     });
     this.resumeArticleLocator = this.page.getByRole('article').filter({
       hasText: 'Resume',
-    });    
+    });
   }
 
   /**
@@ -72,10 +74,10 @@ test.describe('Home page', () => {
     await test.step('there should be a button to change the language', async ({}) => {
       await expect(sut.changeLanguageBtn).toBeVisible();
     });
-    
+
     await test.step('there should be links to social medias', async ({}) => {
       await expect(sut.githubLink).toBeVisible();
-      await expect(sut.linkedinLink).toBeVisible();    
+      await expect(sut.linkedinLink).toBeVisible();
     });
   });
 
@@ -94,7 +96,7 @@ test.describe('Home page', () => {
     await test.step('should navigate to /posts when clicking on the blog article', async () => {
       await sut.blogArticleLocator.click();
       await expect(page).toHaveURL(postsPath);
-    });    
+    });
   });
 
   test('there should be a resume section', async ({ page }) => {

@@ -15,10 +15,10 @@ Irônico! Faz _quase_ um ano desde a última vez que escrevi neste post! Constru
 
 Nas últimas semanas ouvi comentários de que alguns elementos do sistema em que trabalhamos teriam "menor qualidade". Quando pergunto aos stakeholders por que acham isso, recebo percepções muito diferentes do que qualidade significa para cada um:
 
-* "o site está lento!"
-* "isso não funciona quando ... acontece"
-* "o botão está estranho!"
-* "não temos métricas para acompanhar o comportamento do sistema, então deve faltar qualidade!"
+- "o site está lento!"
+- "isso não funciona quando ... acontece"
+- "o botão está estranho!"
+- "não temos métricas para acompanhar o comportamento do sistema, então deve faltar qualidade!"
 
 Tudo isso é facilmente debatível dentro do time e não vou me alongar tanto, mas foi o gatilho para eu pensar: "afinal, o que é qualidade?" e é disso que quero falar hoje e o que me levou a explorar o [Playwright](https://playwright.dev) de forma prática, tanto profissionalmente quanto aqui no site.
 
@@ -28,8 +28,8 @@ Tudo isso é facilmente debatível dentro do time e não vou me alongar tanto, m
 
 Quando converso com alguém do time em um contexto de Engenharia, costumo focar em duas linhas de pensamento:
 
-* Testes Automatizados (Unit, Integration, API, E2E) e Métricas (uptime, latência, taxa de erros)
-* Processos Sólidos (tickets bem escritos, refinement, planejamento, release, observabilidade, documentação)
+- Testes Automatizados (Unit, Integration, API, E2E) e Métricas (uptime, latência, taxa de erros)
+- Processos Sólidos (tickets bem escritos, refinement, planejamento, release, observabilidade, documentação)
 
 > OBS: Antes de me xingar! Eu sei que a lista não é exaustiva e há muitos outros tipos de testes e abordagens para garantir Qualidade. Esses são os que priorizo quando trato com Software Engineers. Então segue comigo.
 
@@ -39,10 +39,10 @@ Testes automatizados geralmente são o mais fácil de resolver quando você entr
 
 Nesse contexto, meu reflexo imediato foi olhar os KPIs da parte automatizada, como:
 
-* Cobertura % (Unit e Integration), que gira em torno de 80%
-* Uptime, que fica em 99.99999%
-* Taxa de Erros, que varia por serviço e componente mas estava ok no caminho crítico
-* Quantidade de Testes E2E Automatizados vs Manuais: tínhamos quase 10 automatizados para milhares de manuais
+- Cobertura % (Unit e Integration), que gira em torno de 80%
+- Uptime, que fica em 99.99999%
+- Taxa de Erros, que varia por serviço e componente mas estava ok no caminho crítico
+- Quantidade de Testes E2E Automatizados vs Manuais: tínhamos quase 10 automatizados para milhares de manuais
 
 Então, sendo o engenheiro fução que sou, veio aquele "PUUUUUUTZ" de que devíamos atacar E2E imediatamente. O que me levou ao buraco de coelho de envolver SDETs, guildas de qualidade e afins para: ter uma suíte adotável tanto por SDETs quanto por SEs.
 

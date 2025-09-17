@@ -1,5 +1,7 @@
 import { test, expect, Page, Locator } from '@playwright/test';
 
+// TODO: make tests more localization friendly. Right now tests default to English (default language for this website).
+
 /**
  * Page Object Model for the Home page.
  */
@@ -52,6 +54,7 @@ let sut: HomePage;
 test.beforeEach(async ({ page }) => {
   sut = new HomePage(page);
   await sut.goto();
+  await expect(page).toHaveURL(/\/$/);
 });
 
 test.describe('Home page', () => {
@@ -59,19 +62,21 @@ test.describe('Home page', () => {
     await expect(sut.titleLocator).toBeVisible();
   });
 
-  test('there should be links to Home, Resume and Posts', async ({ page }) => {
-    await expect(sut.homeLink).toBeVisible();
-    await expect(sut.postsLink).toBeVisible();
-    await expect(sut.resumeLink).toBeVisible();
-  });
+  test('navigation elements should be present', async ({ page }) => {
+    await test.step('there should be links to Home, Resume and Posts', async ({}) => {
+      await expect(sut.homeLink).toBeVisible();
+      await expect(sut.postsLink).toBeVisible();
+      await expect(sut.resumeLink).toBeVisible();
+    });
 
-  test('there should be a button to change the language', async ({ page }) => {
-    await expect(sut.changeLanguageBtn).toBeVisible();
-  });
-
-  test('there should be links to social medias', async ({ page }) => {
-    await expect(sut.githubLink).toBeVisible();
-    await expect(sut.linkedinLink).toBeVisible();    
+    await test.step('there should be a button to change the language', async ({}) => {
+      await expect(sut.changeLanguageBtn).toBeVisible();
+    });
+    
+    await test.step('there should be links to social medias', async ({}) => {
+      await expect(sut.githubLink).toBeVisible();
+      await expect(sut.linkedinLink).toBeVisible();    
+    });
   });
 
   test('there should be a posts section', async ({ page }) => {
@@ -79,8 +84,17 @@ test.describe('Home page', () => {
       - article:
         - text: 📚
         - heading "Blog Posts" [level=2]        
-      `;    
-    await expect(sut.blogArticleLocator).toMatchAriaSnapshot(postsAria);
+      `;
+    const postsPath = /\/posts/;
+
+    await test.step('should match aria snapshot', async () => {
+      await expect(sut.blogArticleLocator).toMatchAriaSnapshot(postsAria);
+    });
+
+    await test.step('should navigate to /posts when clicking on the blog article', async () => {
+      await sut.blogArticleLocator.click();
+      await expect(page).toHaveURL(postsPath);
+    });    
   });
 
   test('there should be a resume section', async ({ page }) => {
@@ -89,6 +103,15 @@ test.describe('Home page', () => {
       - text: 📝
       - heading "Resume" [level=2]
     `;
-    await expect(sut.resumeArticleLocator).toMatchAriaSnapshot(resumeAria);
+    const resumePath = /\/curriculum/;
+
+    await test.step('should match aria snapshot', async () => {
+      await expect(sut.resumeArticleLocator).toMatchAriaSnapshot(resumeAria);
+    });
+
+    await test.step('should navigate to /curriculum when clicking on the resume article', async () => {
+      await sut.resumeArticleLocator.click();
+      await expect(page).toHaveURL(resumePath);
+    });
   });
 });

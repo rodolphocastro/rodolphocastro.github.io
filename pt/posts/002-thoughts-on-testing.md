@@ -80,7 +80,7 @@ E aí vem o efeito da [sombra do líder](https://thinkingfocus.com/tag/shadow-of
 
 O problema de testes automatizados é que, por mais que você escreva em vários níveis, eles não compensam processos ruins. Seja processo da empresa, do produto ou de engenharia.
 
-E aí entram os processos. Mais difíceis de mudar, de medir, mas os que mais impactam o que o coletivo percebe como qualidade:
+E aí entram os processos. Mais difíceis de mudar e de medir mas os que mais impactam o que o coletivo percebe como qualidade:
 
 > Quando algo é deployado deveria simplesmente funcionar, estar bonito e não quebrar.
 

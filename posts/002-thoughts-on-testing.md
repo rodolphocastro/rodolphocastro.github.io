@@ -80,9 +80,9 @@ Is it the silver bullet? Is isn't (read the side-note). But it is a step, an ite
 
 The problem with automated tests is that no matter how much you write them, on their varying levels, you cannot make up for poor processes. Be those processes the company's, product's or even engineering's.
 
-And then come the processes themselves. Harder to change, harder to track but the ones that are most impactful to what the collective perceives as quality:
+The processes themselves are harder to change and harder to track but they are the ones that are most impactful to what the collective perceives as quality:
 
-> When something is deploy it should just work, look good and not break!
+> When something is deployed it should just work, look good and not break!
 
 I'll leave all the process drama to a later post. It is getting late and I want to wrap-up this post and add some more tests to this repo before I go to sleep!
 

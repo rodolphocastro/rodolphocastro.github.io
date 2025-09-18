@@ -12,5 +12,6 @@
     ".vitepress/dist": true,
     "playwright-report": true,
     "test-results": true
-  }
+  },
+  "prettier.configPath": ".prettierrc"
 }

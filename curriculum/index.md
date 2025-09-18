@@ -7,13 +7,93 @@ lastUpdated: true
 
 ## About
 
-I have over 10 years of experience in I.T., having gone through the journey of being a Software Engineer, Tech Lead, Solutions Architect and nowadays being an Engineering Manager, where I focus on solving problems through technology and people.
+I am an Engineering Leader with over 10 years of experience in technology, having evolved from Software Engineer through Tech Lead and Solutions Architect, and for the past years driving organizational impact as an Engineering Manager. My focus has consistently been on leveraging technology, people, and processes to deliver business value at scale.
 
-There's a misconception that IT folks tend to be introspected and somethings a bit less empathetic (who never heard a joke about it "being the user's fault", right?), but my experience tells me a different story: as far as we apply good leadership practices - motivating, engaging and driving continuous improvement for processes and people - IT folks really get out there and make a huge difference on solving our users' problems and delivering value not just to customers but adding to their own careers. Empowered and Engaged people move mountains, even if at one small increment at time!
+In the last 5 years, I have led high-impact initiatives across global, cross-functional teams (spanning Brazil, India, Canada, and the US), bridging strategy and execution. From driving regulatory-compliant launches under tight deadlines, to building products from scratch and scaling them into new markets, to shaping engineering culture through inner-sourcing, observability, and agile practices - my work has consistently accelerated delivery, improved quality, and maximized ROI.
 
-As a leader I ensure that my teams and projects are connected to the opportunities that deliver the biggest possible value to our users, by being agile and transparent across all the different demands and areas of an Organization, ensuring that we are executing and irradiating our long-term strategies into smaller bi-weekly and quarterly increments and by perfecting our teams by providing both formal and informal qualification.
+As a leader, I ensure alignment between engineering and business goals by setting clear KPIs and OKRs, promoting transparency, and creating an environment where teams are empowered to innovate while delivering predictable outcomes. I believe strong engineering organizations are built through a balance of product vision, technical excellence, and people growth. And I actively invest in all three.
 
-My main skills are: A complete project vision, balancing Solution Architecture (mobile, web and backend) with Product (backlog, prioritization, roadmap and vision), using data as support for decision-making (Analytics and Dashboards built on different tools and stacks) and executing strategies to ensure quality on our solutions (focusing on the right strategy, process and execution of automated testing). I seek and promote continuous improvement of teams by using an being an Agile Leader (promoting a safe place for Scrum to happen and 1:1s focused on career development and growth opportunities within our products) and the continuous improvement of our processes and an Organization for both Product and Engineering (Scaled Agile, Quarterly and Sprint Planning, OKRs, Prioritizing and sponsoring initiatives, participating in Chapters and Guilds).
+My expertise lies in orchestrating engineering strategies that scale: defining architectural standards across mobile, web, and backend; establishing data-driven decision frameworks; and embedding quality and observability into the lifecycle. Beyond execution, I champion cultural transformation by fostering collaboration across teams, enabling knowledge sharing, and ensuring engineering has a seat at the strategic table.
+
+## Working Experience
+
+### Platform Science (2025)
+
+#### 2025 - Telematics & Video Safety - Engineering Manager
+
+Directed the expansion of telematics and video monitoring solutions by delivering new web portals and integrating physical devices. Defined and automated KPIs accessible through organizational dashboards and established strategic integrations with partners, expanding market reach and monetization opportunities.
+
+#### 2025 - Trimble Decoupling - Engineering Manager
+
+Following the acquisition of Trimble Transportation Mobility, led efforts to decouple Mobility solutions from Trimble’s platforms and services, defining architectures and processes that ensured operational continuity during the transition defined by the service agreement to the products within my squads' influence.
+
+### Trimble Transportation (2020 - 2025)
+
+#### 2024 - Telematics & Video Safety - Engineering Manager
+
+Scaled rollout of a telematics and video monitoring product from Brazil to the U.S. Recruited and led a 20-person team, aligning global stakeholders. Drove adoption of microfrontends, feature flags, and automation, raising release cadence from monthly to weekly.
+
+#### 2924 - Internal Developer Platform - Engineering Manager
+
+Co-created an Internal Developer Portal to improve discoverability and collaboration across Mobility engineering. Defined adoption KPIs and contributed to architectural strategy for Mobility’s decoupling.
+
+#### 2024 - Career Roadmap & AI Innovations - Engineering Manager
+
+Partnered with leaders to create the Software Engineer career roadmap across all divisions, defining clear IC expectations and benchmarks. Built an AI agent to help engineers navigate the roadmap and receive skill-development suggestions, later adopted by HR and Operations.
+
+#### 2023 - Trimble Inspections - Engineering Manager
+
+Led design and launch of a new product to replace a legacy DVIR solution, aligned with our marketplace strategy. Defined and tracked KPIs and SLAs on adoption, reliability, and costs. Delivered MVP with clear ROI, enabling full migration post-acquisition. Also acted as OKR Coach, supporting executives in rolling out company-wide OKRs.
+
+#### 2022 - Driver Workflow - Engineering Manager
+
+Managed teams in Brazil to enhance a mission-critical application. Implemented observability with Datadog and Crashlytics, cutting bug SLA from 14 to 3 days and setting a new quality benchmark.
+
+#### 2021 - Canada ELD - Engineering Manager
+
+Coordinated global delivery with 100+ developers and achieved government certification 2 months early, making Trimble the first certified big tech in Canada. Introduced modern engineering standards across ELD/DVIR.
+
+#### 2020 - Canada ELD - Software Engineer Sr
+
+Acted as Tech Lead and Scrum Master, localizing a legacy product to meet Canadian regulations. Introduced unit/integration tests, feature flags, SOLID principles, and structured logging, improving observability and reliability while negotiating with stakeholders to ensure deadlines were met while reducing audit risks from the certifying body.
+
+### MPS Informática (2015 - 2020)
+
+- **May 2018 - August 2020**: Software Analyst and Architect
+- **January 2017 - May 2018**: Software Developer
+- **June 2015 - December 2016**: Intern in Software Development
+
+### Universidade Tecnológica Federal do Paraná
+
+- **April 2013 - April 2015**: Scholarship on PET-CoCE program
+
+## Tech Stack
+
+I am familiar with the following technologies and their frameworks:
+
+- .NET (C#)
+- Kotlin (Android and SpringBoot)
+- Python (FastAPI, Django, Data Science and Machine Learning)
+- Typescript (Vue, React, Deno, Playwright)
+
+As well as practices around:
+
+- Solution Architecture / System Design (monoliths, microservices, microfrontends and serverless)
+- Quality and Testing Automation (KPIs, Tools, Practices)
+- Observability (distributed logging, tracing, monitoring)
+- DevOps (Continuous Integration, Delivery, Infrastructure as Code, Feature Flagging, Container Orchestration)
+- Knowledge Management (both at individual and team levels)
+
+This is a non-exhaustive list and I'm continuously learning new practices and frameworks both as a hobby and as a way to improve myself as a leader within the Software Engineering industry. I believe that by staying up-to-date with the relevant trends I set an example (a "shadow of the leader") that allows my peers and team members to be inspired by.
+
+## Languages
+
+| Language                | Level        |
+| ----------------------- | ------------ |
+| 🇧🇷 Brazilian Portuguese | Native       |
+| 🇺🇸 English              | Fluent       |
+| 🇪🇸 Spanish              | Intermediate |
+| 🇫🇷 French               | Basic        |
 
 ## Education
 
@@ -28,42 +108,6 @@ The program also included training in IT security, resource planning, and team l
 ### High-School - Centro Federal de Educação Tecnológica de São Paulo (CEFET/SP)
 
 From 2008 to 2011 I attended high school in a highly praised federal school in the Cubatão city, besides the default high school curriculum over the course those 3 years I took optional classes in Software Development (using the C language).
-
-## Working Experience
-
-### Trimble Transportation
-
-Working as an Engineer Manager leading Agile squads composed by Software Engineers and Software Engineers in Test, aligning expectations and roadmap with Product Managers and Business Stakeholders to ensure features were feasible within the roadmap and to suggest innovative elements to customer pains present in the market.
-
-Coaching of individual Software Engineers to align expectations and support their career development plans starting from the P1 level all the way to the P5 level.
-
-Planning and applying newer Engineering practices and processes to ensure deliveries were up to our quality standards without compromising our speed of delivery, including the introduction of new technologies, KPIs as well as processes such as Agile Discovery (including Product and UX) to reduce the risk of building a feature that might not generate enough revenue to sustain itself.
-
-Drafting out, with Product Managers and UX Leads, roadmap and features that were required for new products to be created, enter a new market or attract more customers.
-
-Using LLMs (such as GPT4 and LLAMA2) to support myself when coaching engineers or spreading information around the practices we were applying as well as creating agents that'd provide support to other Ops areas (such as PX, CX and Support itself) reducing the time needed for them to find an information they needed around the engineering squads.
-
-- **Feb 2021 - present**: Engineering Manager M2
-- **Aug 2020 - Feb 2021**: Software Engineer P3
-
-### MPS Informática
-
-- **May 2018 - August 2020**: Software Analyst and Architect
-- **January 2017 - May 2018**: Software Developer
-- **June 2015 - December 2016**: Intern in Software Development
-
-### Universidade Tecnológica Federal do Paraná
-
-- **April 2013 - April 2015**: Scholarship on PET-CoCE program
-
-## Languages
-
-| Language                | Level        |
-| ----------------------- | ------------ |
-| 🇧🇷 Brazilian Portuguese | Native       |
-| 🇺🇸 English              | Fluent       |
-| 🇪🇸 Spanish              | Intermediate |
-| 🇫🇷 French               | Basic        |
 
 ## Certificates
 

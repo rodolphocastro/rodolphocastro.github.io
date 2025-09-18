@@ -1,4 +1,6 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -6,6 +8,10 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
-    ".vitepress/cache": true
-  }
+    ".vitepress/cache": true,
+    ".vitepress/dist": true,
+    "playwright-report": true,
+    "test-results": true
+  },
+  "prettier.configPath": ".prettierrc"
 }

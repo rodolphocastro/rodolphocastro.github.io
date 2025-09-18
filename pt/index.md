@@ -8,14 +8,12 @@ hero:
 
 features:
   - title: Blog Posts
+    icon: 📚
     details: My thoughts around things in the industry
     link: /posts
     linkText: See Posts
-  - title: Projects
-    details: Projects I have been working on
-    link: /projects
-    linkText: See Projects
   - title: Resume
+    icon: 📝
     details: My resume
     link: /curriculum
     linkText: See Resume

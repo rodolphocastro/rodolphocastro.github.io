@@ -1,11 +1,11 @@
 <template>
-  <div class="article-list">
+  <section class="article-list">
     <div class="row" v-for="row in rows" :key="row">
-      <div class="col" v-for="post in row" :key="post.id">
+      <article class="col" v-for="post in row" :key="post.id">
         <ArticleCard :post="post" />
-      </div>
+      </article>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -24,7 +24,12 @@ export default {
   },
   computed: {
     rows() {
-      const sortedPosts = this.posts.sort((a, b) => b.date - a.date);
+      // TODO: this area is a bit messy, needs refactor
+      // Sort posts by date descending
+      const sortedPosts = this.posts.sort(
+        (a, b) =>
+          new Date(b.postDate).valueOf() - new Date(a.postDate).valueOf(),
+      );
       const rows = [];
       let currentRow = [];
       for (let i = 0; i < sortedPosts.length; i++) {

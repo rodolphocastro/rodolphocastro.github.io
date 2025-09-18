@@ -23,3 +23,9 @@ pnpm-debug.log*
 # vitepress caches and dists
 .vitepress/dist
 .vitepress/cache
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

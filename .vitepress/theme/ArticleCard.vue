@@ -1,8 +1,10 @@
 <template>
   <div class="card" @click="redirectToPost">
-    <a>{{ post.title }}</a>
-    <p>{{ new Date(post.postDate).toLocaleDateString() }}</p>
-    <p>{{ post.author }}</p>
+    <h3 aria-label="Post title">{{ post.title }}</h3>
+    <p aria-label="Post date">
+      {{ new Date(post.postDate).toLocaleDateString() }}
+    </p>
+    <p aria-label="Post author">{{ post.author }}</p>
   </div>
 </template>
 
@@ -29,7 +31,7 @@ export default {
   cursor: pointer;
 }
 
-.card a {
+.card h3 {
   font-size: 18px;
   margin-bottom: 5px;
   font-weight: bold;

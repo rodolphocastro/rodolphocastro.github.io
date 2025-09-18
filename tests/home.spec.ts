@@ -44,7 +44,7 @@ class HomePage {
    */
   async goto() {
     // TODO: this should be env sensitive
-    await this.page.goto('http://localhost:5173/');
+    await this.page.goto('http://localhost:4173/');
   }
 }
 
@@ -65,17 +65,17 @@ test.describe('Home page', () => {
   });
 
   test('navigation elements should be present', async ({ page }) => {
-    await test.step('there should be links to Home, Resume and Posts', async ({}) => {
+    await test.step('there should be links to Home, Resume and Posts', async ({ }) => {
       await expect(sut.homeLink).toBeVisible();
       await expect(sut.postsLink).toBeVisible();
       await expect(sut.resumeLink).toBeVisible();
     });
 
-    await test.step('there should be a button to change the language', async ({}) => {
+    await test.step('there should be a button to change the language', async ({ }) => {
       await expect(sut.changeLanguageBtn).toBeVisible();
     });
 
-    await test.step('there should be links to social medias', async ({}) => {
+    await test.step('there should be links to social medias', async ({ }) => {
       await expect(sut.githubLink).toBeVisible();
       await expect(sut.linkedinLink).toBeVisible();
     });

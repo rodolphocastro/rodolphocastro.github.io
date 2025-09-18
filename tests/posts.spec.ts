@@ -16,7 +16,7 @@ class PostsPage {
 
   async goto() {
     // TODO: this should be env sensitive
-    await this.page.goto('http://localhost:5173/posts');
+    await this.page.goto('http://localhost:4173/posts');
   }
 }
 

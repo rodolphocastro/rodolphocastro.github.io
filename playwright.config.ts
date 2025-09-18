@@ -62,8 +62,10 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: 'npm run dev',
-    url: 'http://localhost:5173',
+    // bundles the app and serves it via preview
+    // should reduce the flakiness when running on a pipeline
+    command: 'npm run build; npm run preview',
+    url: 'http://localhost:4173',
     reuseExistingServer: !process.env.CI,
   },
 });

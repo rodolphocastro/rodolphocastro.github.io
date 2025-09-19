@@ -5,19 +5,26 @@ lang: en
 lastUpdated: true
 ---
 
-## Contact Information
+## Contact & Links
 
 Rodolpho Alves
 
-Engineering Manager | Leader | Solutions Architect | Python | .NET | DevOps | Data Science
+Engineering Manager • Solutions Architect • Platform/DevOps • Data • Python • .NET
 
-Curitiba, Paraná, Brazil
+Curitiba, Paraná, Brazil (remote-friendly)
 
-### Social Medias
-
-- [e-mail](mailto:rodolpho.castro.a@gmail.com)
+- [Email](mailto:rodolpho.castro.a@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/rodolpho-alves93/)
 - [GitHub](https://github.com/rodolphocastro)
+
+## Professional Summary
+
+- Engineering leader with 10+ years across IC and management roles (Software Engineer → Solutions Architect → Tech Lead → Engineering Manager).
+- Led global, cross-functional teams (Brazil, India, Canada, US) delivering regulatory launches, greenfield products, and platform initiatives.
+- Proven record improving release cadence, reliability, and ROI via observability, automation, microfrontends, and feature flags.
+- Scales organizations with clear KPIs/OKRs, data-driven decisioning, and inner-sourcing to accelerate delivery and quality.
+- Strong partner to product and business; aligns strategy to execution and fosters a culture of ownership, transparency, and learning.
+- Breadth across mobile, web, backend, and platform; depth in DevOps, testing, and architectural standards at scale.
 
 ## About me
 
@@ -29,76 +36,78 @@ As a leader, I ensure alignment between engineering and business goals by settin
 
 My expertise lies in orchestrating engineering strategies that scale: defining architectural standards across mobile, web, and backend; establishing data-driven decision frameworks; and embedding quality and observability into the lifecycle. Beyond execution, I champion cultural transformation by fostering collaboration across teams, enabling knowledge sharing, and ensuring engineering has a seat at the strategic table.
 
-## Working Experience
+## Professional Experience
 
 ### Platform Science (2025)
 
-#### 2025 - Telematics & Video Safety - Engineering Manager
+#### Engineering Manager • Telematics & Video Safety (2025)
 
-Directed the expansion of telematics and video monitoring solutions by delivering new web portals and integrating physical devices. Defined and automated KPIs accessible through organizational dashboards and established strategic integrations with partners, expanding market reach and monetization opportunities.
+- Scaled telematics and video monitoring solutions with new web portals and hardware integrations.
+- Defined automated, org-wide KPIs and operational dashboards to steer execution and accountability.
+- Established strategic partner integrations to expand market reach and new monetization paths.
 
-#### 2025 - Trimble Decoupling - Engineering Manager
+#### Engineering Manager • Trimble Decoupling (2025)
 
-Following the acquisition of Trimble Transportation Mobility, led efforts to decouple Mobility solutions from Trimble’s platforms and services, defining architectures and processes that ensured operational continuity during the transition defined by the service agreement to the products within my squads' influence.
+- Post-acquisition, led decoupling of Mobility solutions from Trimble platforms/services.
+- Defined transitional architectures and processes to maintain SLA and continuity under TSA constraints.
 
-### Trimble Transportation (2020 - 2025)
+### Trimble Transportation (2020–2025)
 
-#### 2024 - Telematics & Video Safety - Engineering Manager
+#### Engineering Manager • Telematics & Video Safety (2024)
 
-Scaled rollout of a telematics and video monitoring product from Brazil to the U.S. Recruited and led a 20-person team, aligning global stakeholders. Drove adoption of microfrontends, feature flags, and automation, raising release cadence from monthly to weekly.
+- Scaled rollout from Brazil to the U.S.; recruited and led a 20-person team across regions.
+- Drove microfrontends, feature flags, and automation; improved release cadence from monthly to weekly.
+- Aligned global stakeholders and go-to-market for accelerated adoption.
 
-#### 2024 - Internal Developer Platform - Engineering Manager
+#### Engineering Manager • Internal Developer Platform (2024)
 
-Co-created an Internal Developer Portal to improve discoverability and collaboration across Mobility engineering. Defined adoption KPIs and contributed to architectural strategy for Mobility’s decoupling.
+- Co-created Mobility’s Internal Developer Portal improving discoverability and collaboration.
+- Defined adoption KPIs and informed architecture strategy for Mobility’s decoupling.
 
-#### 2024 - Career Roadmap & AI Innovations - Engineering Manager
+#### Engineering Manager • Career Roadmap & AI (2024)
 
-Partnered with leaders to create the Software Engineer career roadmap across all divisions, defining clear IC expectations and benchmarks. Built an AI agent to help engineers navigate the roadmap and receive skill-development suggestions, later adopted by HR and Operations.
+- Co-authored engineering career roadmap with clear IC expectations and benchmarks across divisions.
+- Built an AI agent to guide skills development; adopted by HR and Operations.
 
-#### 2023 - Trimble Inspections - Engineering Manager
+#### Engineering Manager • Trimble Inspections (2023)
 
-Led design and launch of a new product to replace a legacy DVIR solution, aligned with our marketplace strategy. Defined and tracked KPIs and SLAs on adoption, reliability, and costs. Delivered MVP with clear ROI, enabling full migration post-acquisition. Also acted as OKR Coach, supporting executives in rolling out company-wide OKRs.
+- Designed and launched a new product replacing legacy DVIR aligned to marketplace strategy.
+- Set and tracked KPIs/SLAs for adoption, reliability, and cost; delivered MVP with clear ROI enabling migration post-acquisition.
+- Served as OKR Coach supporting executive rollout of company-wide OKRs.
 
-#### 2022 - Driver Workflow - Engineering Manager
+#### Engineering Manager • Driver Workflow (2022)
 
-Managed teams in Brazil to enhance a mission-critical application. Implemented observability with Datadog and Crashlytics, cutting bug SLA from 14 to 3 days and setting a new quality benchmark.
+- Led Brazil-based teams on a mission-critical app; implemented Datadog and Crashlytics.
+- Reduced bug SLA from 14 to 3 days and established new quality benchmarks.
 
-#### 2021 - Canada ELD - Engineering Manager
+#### Engineering Manager • Canada ELD (2021)
 
-Coordinated global delivery with 100+ developers and achieved government certification 2 months early, making Trimble the first certified big tech in Canada. Introduced modern engineering standards across ELD/DVIR.
+- Coordinated global delivery with 100+ developers; achieved government certification 2 months early.
+- Made Trimble the first large tech certified in Canada; standardized modern engineering practices across ELD/DVIR.
 
-#### 2020 - Canada ELD - Software Engineer Sr
+#### Senior Software Engineer • Canada ELD (2020)
 
-Acted as Tech Lead and Scrum Master, localizing a legacy product to meet Canadian regulations. Introduced unit/integration tests, feature flags, SOLID principles, and structured logging, improving observability and reliability while negotiating with stakeholders to ensure deadlines were met while reducing audit risks from the certifying body.
+- Acted as Tech Lead/Scrum Master to localize a legacy product for Canadian regulations.
+- Introduced unit/integration tests, feature flags, SOLID, and structured logging to improve reliability and observability.
+- Collaborated with stakeholders to meet tight deadlines while reducing certification audit risk.
 
 ### MPS Informática (2015 - 2020)
 
-- **May 2018 - August 2020**: Software Analyst and Architect
-- **January 2017 - May 2018**: Software Developer
-- **June 2015 - December 2016**: Intern in Software Development
+- **Software Analyst & Architect** (May 2018–Aug 2020)
+- **Software Developer** (Jan 2017–May 2018)
+- **Software Development Intern** (Jun 2015–Dec 2016)
 
 ### Universidade Tecnológica Federal do Paraná
 
-- **April 2013 - April 2015**: Scholarship on PET-CoCE program
+- **Apr 2013–Apr 2015**: Scholarship - PET-CoCE program
 
-## Tech Stack
+## Technical Skills
 
-I am familiar with the following technologies and their frameworks:
-
-- .NET (C#)
-- Kotlin (Android and SpringBoot)
-- Python (FastAPI, Django, Data Science and Machine Learning)
-- Typescript (Vue, React, Deno, Playwright)
-
-As well as practices around:
-
-- Solution Architecture / System Design (monoliths, microservices, microfrontends and serverless)
-- Quality and Testing Automation (KPIs, Tools, Practices)
-- Observability (distributed logging, tracing, monitoring)
-- DevOps (Continuous Integration, Delivery, Infrastructure as Code, Feature Flagging, Container Orchestration)
-- Knowledge Management (both at individual and team levels)
-
-This is a non-exhaustive list and I'm continuously learning new practices and frameworks both as a hobby and as a way to improve myself as a leader within the Software Engineering industry. I believe that by staying up-to-date with the relevant trends I set an example (a "shadow of the leader") that allows my peers and team members to be inspired by.
+- Languages & Frameworks: .NET (C#), Python (FastAPI, Django, DS/ML), Kotlin (Android, Spring Boot), TypeScript (Vue, React, Deno, Playwright)
+- Architecture & Delivery: monoliths, microservices, microfrontends, serverless; solution design; ADRs and standards
+- Quality & Observability: testing strategy (unit/integration/E2E), KPIs, distributed logging, tracing, monitoring
+- DevOps & Platform: CI/CD, infrastructure as code, feature flags, container orchestration, inner-sourcing practices
+- Ways of Working: OKRs, KPIs, engineering career frameworks, cross-team collaboration, stakeholder management
 
 ## Languages
 
@@ -111,64 +120,19 @@ This is a non-exhaustive list and I'm continuously learning new practices and fr
 
 ## Education
 
-### Bachelor in Information Systems - Universidade Tecnológica Federal do Paraná
+### Bachelor of Information Systems - Universidade Tecnológica Federal do Paraná (2012–2019)
 
-Pursued a Bachelor’s Degree in Information Technology from 2012 to 2019. This 4-year degree provided in-depth knowledge and skills in system development, network administration, and database management, as well as expertise in designing and maintaining websites, e-commerce platforms, and mobile technologies.
-
-Although the degree was delayed due to bureaucratic issues related to Brazilian internship labor laws, the experience offered valuable insights into navigating real-world challenges while building technical expertise. This extended timeline allowed for a more comprehensive understanding of both the academic and practical aspects of the field.
-
-The program also included training in IT security, resource planning, and team leadership. Additionally, it involved providing consulting services for research and development initiatives, enabling the application of strategic solutions to meet organizational needs.
+Curriculum focused on systems development, networks, databases, security, and software engineering practices.
 
 ### High-School - Centro Federal de Educação Tecnológica de São Paulo (CEFET/SP)
 
-From 2008 to 2011 I attended high school in a highly praised federal school in the Cubatão city, besides the default high school curriculum over the course those 3 years I took optional classes in Software Development (using the C language).
+2008–2011 - Completed high school; elective coursework in C programming.
 
-## Certificates
+## Certifications
 
-### OKR Certified Coach
-
-Issued by: Expert in the outcome mindset method
-
-Issued on: December 2021
-
-[Certification](https://lp.workboard.com/rs/047-RAB-974/images/Rodolpho_Alves.pdf?mkt_tok=MDQ3LVJBQi05NzQAAAGBg77NoZtzEQhzGixPG19lg85M5EMQQuxxQqAhUdWCGlPNXQBU8G7jDTm012nTsHX_8liMhzK8lPNwq0GrviTIA-CcThYZfo0LqqmOUp5m)
-
-### Team Accelerator Workshop
-
-Based on Belbin roles, situational leadership and effective team collaboration.
-
-Issued by: Trimble Inc
-
-Issued on: March 2021
-
-### The 6 Critical Practices for Leading a Team
-
-[Based on FranklinCovey's](https://www.franklincovey.com/courses/6-critical-practices/) six critical practices for leading a team.
-
-Issued by: Trimble Inc
-
-Issued on: November 2020
-
-### Microsoft Certified: Azure Solutions Architect Expert (10/2019)
-
-Issued by: Microsoft
-
-Issued on: October 2019
-
-[Certification](https://www.credly.com/badges/13879309-a966-434f-87bc-81ec3793d3e2/linked_in_profile)
-
-### Microsoft Certified: Azure Developer Associate (03/2020)
-
-Issued by: Microsoft
-
-Issued on: March 2020
-
-[Certification](https://www.credly.com/badges/81c1dfb5-0d6a-415f-8549-8a0ac6a0f957/linked_in_profile)
-
-### Scrum Fundamentals Certified (01/2020)
-
-Issued by: SCRUMstudy - Accreditation Body for Scrum and Agile
-
-Issued on: Jan 2020
-
-Credential ID 756669
+- OKR Certified Coach - Expert in the Outcome Mindset Method (Dec 2021) - [Certificate](https://lp.workboard.com/rs/047-RAB-974/images/Rodolpho_Alves.pdf?mkt_tok=MDQ3LVJBQi05NzQAAAGBg77NoZtzEQhzGixPG19lg85M5EMQQuxxQqAhUdWCGlPNXQBU8G7jDTm012nTsHX_8liMhzK8lPNwq0GrviTIA-CcThYZfo0LqqmOUp5m)
+- Team Accelerator Workshop - Trimble (Mar 2021) - Belbin roles, situational leadership, collaboration
+- The 6 Critical Practices for Leading a Team - Trimble/FranklinCovey (Nov 2020)
+- Microsoft Certified: Azure Solutions Architect Expert (Oct 2019) - [Credential](https://www.credly.com/badges/13879309-a966-434f-87bc-81ec3793d3e2/linked_in_profile)
+- Microsoft Certified: Azure Developer Associate (Mar 2020) - [Credential](https://www.credly.com/badges/81c1dfb5-0d6a-415f-8549-8a0ac6a0f957/linked_in_profile)
+- Scrum Fundamentals Certified - SCRUMstudy (Jan 2020), ID 756669

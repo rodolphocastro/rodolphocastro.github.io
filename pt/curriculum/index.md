@@ -5,56 +5,109 @@ lang: pt
 lastUpdated: true
 ---
 
-## Sobre
+## Contato e Links
 
-Tenho mais de 10 anos de experiência em TI, tendo passado pela jornada de Engenheiro de Software, Líder Técnico, Arquiteto de Soluções e, atualmente, sou Gerente de Engenharia, onde me concentro em resolver problemas por meio de tecnologia e pessoas.
+Rodolpho Alves
 
-Há uma ideia equivocada de que pessoas de TI tendem a ser introspectivas e, às vezes, um pouco menos empáticas (quem nunca ouviu uma piada sobre ser "culpa do usuário", certo?). No entanto, minha experiência me mostra uma história diferente: à medida que aplicamos boas práticas de liderança – motivando, engajando e promovendo melhorias contínuas nos processos e nas pessoas – profissionais de TI realmente se destacam e fazem uma grande diferença ao resolver problemas dos nossos usuários e entregar valor não apenas aos clientes, mas também promovendo o desenvolvimento de suas próprias carreiras. Pessoas empoderadas e engajadas movem montanhas, mesmo que seja um pequeno incremento de cada vez!
+Gerente de Engenharia • Arquiteto de Soluções • Plataforma/DevOps • Dados • Python • .NET
 
-Como líder, garanto que minhas equipes e projetos estejam conectados às oportunidades que oferecem o maior valor possível aos nossos usuários, sendo ágeis e transparentes em todas as demandas e áreas de uma organização. Asseguro que estamos executando e irradiando nossas estratégias de longo prazo em incrementos menores, quinzenais e trimestrais, além de aperfeiçoar nossas equipes por meio de qualificação formal e informal.
+Curitiba, Paraná, Brasil (disponível para trabalho remoto)
 
-Minhas principais habilidades são: uma visão completa de projeto, equilibrando Arquitetura de Soluções (mobile, web e backend) com Produto (backlog, priorização, roadmap e visão), utilizando dados como suporte para a tomada de decisões (Analytics e Dashboards construídos em diferentes ferramentas e stacks) e executando estratégias para garantir a qualidade das nossas soluções (focando na estratégia correta, processo e execução de testes automatizados). Busco e promovo a melhoria contínua das equipes sendo um Líder Ágil (promovendo um ambiente seguro para o Scrum e 1:1s focadas no desenvolvimento de carreira e oportunidades de crescimento dentro dos nossos produtos) e a melhoria contínua dos processos e da organização, tanto para Produto quanto para Engenharia (Scaled Agile, Planejamento Trimestral e de Sprints, OKRs, Priorização e patrocínio de iniciativas, participação em Chapters e Guilds).
+- [E-mail](mailto:rodolpho.castro.a@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/rodolpho-alves93/)
+- [GitHub](https://github.com/rodolphocastro)
 
-## Educação
+## Resumo Profissional
 
-### Bacharel em Sistemas de Informação - Universidade Tecnológica Federal do Paraná
+- Líder de engenharia com 10+ anos entre cargos de IC e gestão (Engenheiro de Software → Arquiteto de Soluções → Tech Lead → Gerente de Engenharia).
+- Liderança de times globais multifuncionais (Brasil, Índia, Canadá, EUA) entregando lançamentos regulatórios, produtos greenfield e iniciativas de plataforma.
+- Histórico de aumento de cadência de releases, confiabilidade e ROI por meio de observabilidade, automação, microfrontends e feature flags.
+- Escala organizações com KPIs/OKRs claros, decisões orientadas por dados e inner-sourcing para acelerar entrega e qualidade.
+- Forte parceria com Produto e Negócio; alinha estratégia à execução e fomenta cultura de ownership, transparência e aprendizado.
+- Amplitude em mobile, web, backend e plataforma; profundidade em DevOps, testes e padrões arquiteturais em escala.
 
-Cursado entre 2012 e 2019, este curso de 4 anos proporcionou conhecimento profundo em desenvolvimento de sistemas, administração de redes e gerenciamento de banco de dados, além de expertise no design e manutenção de sites, plataformas de e-commerce e tecnologias móveis.
+## Sobre mim
 
-Embora o curso tenha sido prorrogado devido a questões burocráticas relacionadas às leis de estágio no Brasil, a experiência ofereceu insights valiosos sobre como lidar com desafios do mundo real enquanto desenvolvia expertise técnica. Este período estendido permitiu uma compreensão mais abrangente tanto dos aspectos acadêmicos quanto práticos do campo.
+Sou um Líder de Engenharia com mais de 10 anos de experiência em tecnologia, tendo evoluído de Engenheiro de Software para Tech Lead e Arquiteto de Soluções e, nos últimos anos, gerando impacto organizacional como Gerente de Engenharia. Meu foco tem sido consistentemente alavancar tecnologia, pessoas e processos para entregar valor de negócio em escala.
 
-O programa também incluiu treinamento em segurança de TI, planejamento de recursos e liderança de equipe. Além disso, envolveu a prestação de serviços de consultoria para iniciativas de pesquisa e desenvolvimento, possibilitando a aplicação de soluções estratégicas para atender às necessidades organizacionais.
+Nos últimos 5 anos, liderei iniciativas de alto impacto em times globais e multidisciplinares (Brasil, Índia, Canadá e EUA), conectando estratégia e execução. Desde conduzir lançamentos regulatórios sob prazos apertados, construir produtos do zero e escalá-los para novos mercados, até moldar a cultura de engenharia por meio de inner-sourcing, observabilidade e práticas ágeis - meu trabalho tem acelerado a entrega, melhorado a qualidade e maximizado o ROI.
 
-### Ensino Médio - Centro Federal de Educação Tecnológica de São Paulo (CEFET/SP)
+Como líder, garanto o alinhamento entre metas de engenharia e objetivos de negócio definindo KPIs e OKRs claros, promovendo transparência e criando um ambiente onde as equipes têm autonomia para inovar enquanto entregam resultados previsíveis. Acredito que organizações de engenharia fortes se constroem com o equilíbrio entre visão de produto, excelência técnica e desenvolvimento de pessoas - e invisto ativamente nos três.
 
-De 2008 a 2011, frequentei o ensino médio em uma escola federal muito respeitada na cidade de Cubatão. Além do currículo padrão do ensino médio, ao longo desses 3 anos, participei de aulas opcionais de Desenvolvimento de Software (utilizando a linguagem C).
+Minha expertise está em orquestrar estratégias de engenharia que escalam: definir padrões arquiteturais para mobile, web e backend; estabelecer estruturas de decisão orientadas por dados; e incorporar qualidade e observabilidade ao ciclo de vida. Além da execução, impulsiono transformação cultural fomentando colaboração entre equipes, compartilhamento de conhecimento e garantindo que engenharia tenha voz na estratégia.
 
 ## Experiência Profissional
 
-### Trimble Transportation
+### Platform Science (2025)
 
-Atuo como Gerente de Engenharia, liderando squads ágeis compostos por Engenheiros de Software e Engenheiros de Teste de Software, alinhando expectativas e roadmap com Gerentes de Produto e Stakeholders de Negócio para garantir que as funcionalidades sejam viáveis dentro do roadmap e sugerir elementos inovadores para dores dos clientes presentes no mercado.
+#### Gerente de Engenharia • Telemetria & Segurança por Vídeo (2025)
 
-Faço coaching de Engenheiros de Software individualmente para alinhar expectativas e apoiar seus planos de desenvolvimento de carreira, desde o nível P1 até o nível P5.
+- Escalei soluções de telemetria e monitoramento por vídeo com novos portais web e integrações com dispositivos.
+- Defini KPIs automatizados de nível organizacional e painéis operacionais para orientar execução e responsabilização.
+- Estabeleci integrações estratégicas com parceiros para ampliar alcance de mercado e novas vias de monetização.
 
-Planejo e aplico novas práticas e processos de Engenharia para garantir que as entregas atendam nossos padrões de qualidade sem comprometer a velocidade de entrega, incluindo a introdução de novas tecnologias, KPIs, bem como processos como Agile Discovery (incluindo Produto e UX) para reduzir o risco de construir uma funcionalidade que possa não gerar receita suficiente para se sustentar.
+#### Gerente de Engenharia • Desacoplamento da Trimble (2025)
 
-Desenvolvo, juntamente com Gerentes de Produto e Líderes de UX, roadmap e funcionalidades necessárias para novos produtos, entrar em novos mercados ou atrair mais clientes.
+- Após aquisição, liderei o desacoplamento de soluções de Mobilidade das plataformas/serviços da Trimble.
+- Defini arquiteturas e processos de transição para manter SLA e continuidade sob restrições de TSA (Transitional Service Agreement).
 
-Uso LLMs (como GPT4 e LLAMA2) para me apoiar ao treinar engenheiros ou disseminar informações sobre as práticas que estamos aplicando, além de criar agentes que oferecem suporte a outras áreas de operações (como PX, CX e Suporte), reduzindo o tempo necessário para encontrar uma informação que eles precisavam das squads de engenharia.
+### Trimble Transportation (2020–2025)
 
-- **Fev 2021 - presente**: Gerente de Engenharia M2
-- **Ago 2020 - Fev 2021**: Engenheiro de Software P3
+#### Gerente de Engenharia • Telemetria & Segurança por Vídeo (2024)
 
-### MPS Informática
+- Escalei o rollout do Brasil para os EUA; recrutei e liderei um time de 20 pessoas.
+- Promovi microfrontends, feature flags e automação; melhorei a cadência de releases de mensal para semanal.
+- Alinhei stakeholders globais e go-to-market para aceleração da adoção.
 
-- **Maio 2018 - Agosto 2020**: Analista e Arquiteto de Software
-- **Janeiro 2017 - Maio 2018**: Desenvolvedor de Software
-- **Junho 2015 - Dezembro 2016**: Estagiário em Desenvolvimento de Software
+#### Gerente de Engenharia • Portal Interno de Desenvolvedores (2024)
+
+- Co-criei o Portal Interno de Desenvolvedores da área de Mobilidade, melhorando descobribilidade e colaboração.
+- Defini KPIs de adoção e informei a estratégia de arquitetura para o desacoplamento da Mobilidade.
+
+#### Gerente de Engenharia • Roadmap de Carreira & IA (2024)
+
+- Co-autor da trilha de carreira de engenharia com expectativas e benchmarks claros de IC entre divisões.
+- Criei um agente de IA para orientar desenvolvimento de habilidades; adotado por RH e Operações.
+
+#### Gerente de Engenharia • Trimble Inspections (2023)
+
+- Desenhei e lancei um novo produto substituindo o DVIR legado, alinhado à estratégia de marketplace.
+- Estabeleci e rastreei KPIs/SLAs de adoção, confiabilidade e custo; entreguei MVP com ROI claro, habilitando migração pós-aquisição.
+- Atuei como OKR Coach apoiando a implementação executiva de OKRs corporativos.
+
+#### Gerente de Engenharia • Driver Workflow (2022)
+
+- Liderei times no Brasil em um app crítico; implementei Datadog e Crashlytics.
+- Reduzi o SLA de correção de bugs de 14 para 3 dias e estabeleci novo patamar de qualidade.
+
+#### Gerente de Engenharia • ELD Canadá (2021)
+
+- Coordenei entrega global com 100+ desenvolvedores; obtivemos certificação governamental 2 meses antes do prazo.
+- Tornamos a Trimble a primeira big tech certificada no Canadá; padronizei práticas modernas em ELD/DVIR.
+
+#### Engenheiro de Software Sênior • ELD Canadá (2020)
+
+- Atuei como Tech Lead/Scrum Master na localização de produto legado para regulamentações canadenses.
+- Introduzi testes unitários/integração, feature flags, SOLID e logging estruturado para melhorar confiabilidade e observabilidade.
+- Colaborei com stakeholders para cumprir prazos agressivos reduzindo risco de auditoria de certificação.
+
+### MPS Informática (2015–2020)
+
+- **Analista e Arquiteto de Software** (maio 2018–ago 2020)
+- **Desenvolvedor de Software** (jan 2017–mai 2018)
+- **Estagiário em Desenvolvimento de Software** (jun 2015–dez 2016)
 
 ### Universidade Tecnológica Federal do Paraná
 
-- **Abril 2013 - Abril 2015**: Bolsista no programa PET-CoCE
+- **abr 2013–abr 2015**: Bolsista - programa PET-CoCE
+
+## Habilidades Técnicas
+
+- Linguagens & Frameworks: .NET (C#), Python (FastAPI, Django, DS/ML), Kotlin (Android, Spring Boot), TypeScript (Vue, React, Deno, Playwright)
+- Arquitetura & Entrega: monólitos, microsserviços, microfrontends, serverless; desenho de soluções; ADRs e padrões
+- Qualidade & Observabilidade: estratégia de testes (unitário/integração/E2E), KPIs, logging distribuído, tracing, monitoring
+- DevOps & Plataforma: CI/CD, infraestrutura como código, feature flags, orquestração de contêineres, práticas de inner-sourcing
+- Formas de Trabalho: OKRs, KPIs, frameworks de carreira de engenharia, colaboração entre times, gestão de stakeholders
 
 ## Idiomas
 
@@ -65,40 +118,21 @@ Uso LLMs (como GPT4 e LLAMA2) para me apoiar ao treinar engenheiros ou dissemina
 | 🇪🇸 Espanhol             | Intermediário |
 | 🇫🇷 Francês              | Básico        |
 
-## Certificados
+## Formação
 
-### Coach Certificado em OKR
+### Bacharelado em Sistemas de Informação - Universidade Tecnológica Federal do Paraná (2012–2019)
 
-Emitido por: Expert in the outcome mindset method  
-Emitido em: Dezembro 2021  
-[Certificação](https://lp.workboard.com/rs/047-RAB-974/images/Rodolpho_Alves.pdf?mkt_tok=MDQ3LVJBQi05NzQAAAGBg77NoZtzEQhzGixPG19lg85M5EMQQuxxQqAhUdWCGlPNXQBU8G7jDTm012nTsHX_8liMhzK8lPNwq0GrviTIA-CcThYZfo0LqqmOUp5m)
+Currículo focado em desenvolvimento de sistemas, redes, bancos de dados, segurança e práticas de engenharia de software.
 
-### Workshop Acelerador de Equipes
+### Ensino Médio - Centro Federal de Educação Tecnológica de São Paulo (CEFET/SP)
 
-Baseado nos papéis de Belbin, liderança situacional e colaboração eficaz em equipe.  
-Emitido por: Trimble Inc  
-Emitido em: Março 2021
+2008–2011 - Ensino médio concluído; disciplinas eletivas em programação em C.
 
-### As 6 Práticas Críticas para Liderar uma Equipe
+## Certificações
 
-Baseado nas [seis práticas críticas](https://www.franklincovey.com/courses/6-critical-practices/) da FranklinCovey para liderar uma equipe.  
-Emitido por: Trimble Inc  
-Emitido em: Novembro 2020
-
-### Microsoft Certified: Azure Solutions Architect Expert (10/2019)
-
-Emitido por: Microsoft  
-Emitido em: Outubro 2019  
-[Certificação](https://www.credly.com/badges/13879309-a966-434f-87bc-81ec3793d3e2/linked_in_profile)
-
-### Microsoft Certified: Azure Developer Associate (03/2020)
-
-Emitido por: Microsoft  
-Emitido em: Março 2020  
-[Certificação](https://www.credly.com/badges/81c1dfb5-0d6a-415f-8549-8a0ac6a0f957/linked_in_profile)
-
-### Certificação Scrum Fundamentals (01/2020)
-
-Emitido por: SCRUMstudy - Accreditation Body for Scrum and Agile  
-Emitido em: Janeiro 2020  
-ID da Credencial: 756669
+- OKR Certified Coach - Expert in the Outcome Mindset Method (dez 2021) - [Certificado](https://lp.workboard.com/rs/047-RAB-974/images/Rodolpho_Alves.pdf?mkt_tok=MDQ3LVJBQi05NzQAAAGBg77NoZtzEQhzGixPG19lg85M5EMQQuxxQqAhUdWCGlPNXQBU8G7jDTm012nTsHX_8liMhzK8lPNwq0GrviTIA-CcThYZfo0LqqmOUp5m)
+- Workshop Acelerador de Equipes - Trimble (mar 2021) - papéis de Belbin, liderança situacional, colaboração
+- As 6 Práticas Críticas para Liderar uma Equipe - Trimble/FranklinCovey (nov 2020)
+- Microsoft Certified: Azure Solutions Architect Expert (out 2019) - [Credencial](https://www.credly.com/badges/13879309-a966-434f-87bc-81ec3793d3e2/linked_in_profile)
+- Microsoft Certified: Azure Developer Associate (mar 2020) - [Credencial](https://www.credly.com/badges/81c1dfb5-0d6a-415f-8549-8a0ac6a0f957/linked_in_profile)
+- Scrum Fundamentals Certified - SCRUMstudy (jan 2020), ID 756669

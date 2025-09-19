@@ -5,56 +5,109 @@ lang: en
 lastUpdated: true
 ---
 
-## About
+## Contact & Links
 
-I have over 10 years of experience in I.T., having gone through the journey of being a Software Engineer, Tech Lead, Solutions Architect and nowadays being an Engineering Manager, where I focus on solving problems through technology and people.
+Rodolpho Alves
 
-There's a misconception that IT folks tend to be introspected and somethings a bit less empathetic (who never heard a joke about it "being the user's fault", right?), but my experience tells me a different story: as far as we apply good leadership practices - motivating, engaging and driving continuous improvement for processes and people - IT folks really get out there and make a huge difference on solving our users' problems and delivering value not just to customers but adding to their own careers. Empowered and Engaged people move mountains, even if at one small increment at time!
+Engineering Manager • Solutions Architect • Platform/DevOps • Data • Python • .NET
 
-As a leader I ensure that my teams and projects are connected to the opportunities that deliver the biggest possible value to our users, by being agile and transparent across all the different demands and areas of an Organization, ensuring that we are executing and irradiating our long-term strategies into smaller bi-weekly and quarterly increments and by perfecting our teams by providing both formal and informal qualification.
+Curitiba, Paraná, Brazil (remote-friendly)
 
-My main skills are: A complete project vision, balancing Solution Architecture (mobile, web and backend) with Product (backlog, prioritization, roadmap and vision), using data as support for decision-making (Analytics and Dashboards built on different tools and stacks) and executing strategies to ensure quality on our solutions (focusing on the right strategy, process and execution of automated testing). I seek and promote continuous improvement of teams by using an being an Agile Leader (promoting a safe place for Scrum to happen and 1:1s focused on career development and growth opportunities within our products) and the continuous improvement of our processes and an Organization for both Product and Engineering (Scaled Agile, Quarterly and Sprint Planning, OKRs, Prioritizing and sponsoring initiatives, participating in Chapters and Guilds).
+- [Email](mailto:rodolpho.castro.a@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/rodolpho-alves93/)
+- [GitHub](https://github.com/rodolphocastro)
 
-## Education
+## Professional Summary
 
-### Bachelor in Information Systems - Universidade Tecnológica Federal do Paraná
+- Engineering leader with 10+ years across IC and management roles (Software Engineer → Solutions Architect → Tech Lead → Engineering Manager).
+- Led global, cross-functional teams (Brazil, India, Canada, US) delivering regulatory launches, greenfield products, and platform initiatives.
+- Proven record improving release cadence, reliability, and ROI via observability, automation, microfrontends, and feature flags.
+- Scales organizations with clear KPIs/OKRs, data-driven decisioning, and inner-sourcing to accelerate delivery and quality.
+- Strong partner to product and business; aligns strategy to execution and fosters a culture of ownership, transparency, and learning.
+- Breadth across mobile, web, backend, and platform; depth in DevOps, testing, and architectural standards at scale.
 
-Pursued a Bachelor’s Degree in Information Technology from 2012 to 2019. This 4-year degree provided in-depth knowledge and skills in system development, network administration, and database management, as well as expertise in designing and maintaining websites, e-commerce platforms, and mobile technologies.
+## About me
 
-Although the degree was delayed due to bureaucratic issues related to Brazilian internship labor laws, the experience offered valuable insights into navigating real-world challenges while building technical expertise. This extended timeline allowed for a more comprehensive understanding of both the academic and practical aspects of the field.
+I am an Engineering Leader with over 10 years of experience in technology, having evolved from Software Engineer through Tech Lead and Solutions Architect, and for the past years driving organizational impact as an Engineering Manager. My focus has consistently been on leveraging technology, people, and processes to deliver business value at scale.
 
-The program also included training in IT security, resource planning, and team leadership. Additionally, it involved providing consulting services for research and development initiatives, enabling the application of strategic solutions to meet organizational needs.
+In the last 5 years, I have led high-impact initiatives across global, cross-functional teams (spanning Brazil, India, Canada, and the US), bridging strategy and execution. From driving regulatory-compliant launches under tight deadlines, to building products from scratch and scaling them into new markets, to shaping engineering culture through inner-sourcing, observability, and agile practices - my work has consistently accelerated delivery, improved quality, and maximized ROI.
 
-### High-School - Centro Federal de Educação Tecnológica de São Paulo (CEFET/SP)
+As a leader, I ensure alignment between engineering and business goals by setting clear KPIs and OKRs, promoting transparency, and creating an environment where teams are empowered to innovate while delivering predictable outcomes. I believe strong engineering organizations are built through a balance of product vision, technical excellence, and people growth. And I actively invest in all three.
 
-From 2008 to 2011 I attended high school in a highly praised federal school in the Cubatão city, besides the default high school curriculum over the course those 3 years I took optional classes in Software Development (using the C language).
+My expertise lies in orchestrating engineering strategies that scale: defining architectural standards across mobile, web, and backend; establishing data-driven decision frameworks; and embedding quality and observability into the lifecycle. Beyond execution, I champion cultural transformation by fostering collaboration across teams, enabling knowledge sharing, and ensuring engineering has a seat at the strategic table.
 
-## Working Experience
+## Professional Experience
 
-### Trimble Transportation
+### Platform Science (2025)
 
-Working as an Engineer Manager leading Agile squads composed by Software Engineers and Software Engineers in Test, aligning expectations and roadmap with Product Managers and Business Stakeholders to ensure features were feasible within the roadmap and to suggest innovative elements to customer pains present in the market.
+#### Engineering Manager • Telematics & Video Safety (2025)
 
-Coaching of individual Software Engineers to align expectations and support their career development plans starting from the P1 level all the way to the P5 level.
+- Scaled telematics and video monitoring solutions with new web portals and hardware integrations.
+- Defined automated, org-wide KPIs and operational dashboards to steer execution and accountability.
+- Established strategic partner integrations to expand market reach and new monetization paths.
 
-Planning and applying newer Engineering practices and processes to ensure deliveries were up to our quality standards without compromising our speed of delivery, including the introduction of new technologies, KPIs as well as processes such as Agile Discovery (including Product and UX) to reduce the risk of building a feature that might not generate enough revenue to sustain itself.
+#### Engineering Manager • Trimble Decoupling (2025)
 
-Drafting out, with Product Managers and UX Leads, roadmap and features that were required for new products to be created, enter a new market or attract more customers.
+- Post-acquisition, led decoupling of Mobility solutions from Trimble platforms/services.
+- Defined transitional architectures and processes to maintain SLA and continuity under TSA constraints.
 
-Using LLMs (such as GPT4 and LLAMA2) to support myself when coaching engineers or spreading information around the practices we were applying as well as creating agents that'd provide support to other Ops areas (such as PX, CX and Support itself) reducing the time needed for them to find an information they needed around the engineering squads.
+### Trimble Transportation (2020–2025)
 
-- **Feb 2021 - present**: Engineering Manager M2
-- **Aug 2020 - Feb 2021**: Software Engineer P3
+#### Engineering Manager • Telematics & Video Safety (2024)
 
-### MPS Informática
+- Scaled rollout from Brazil to the U.S.; recruited and led a 20-person team across regions.
+- Drove microfrontends, feature flags, and automation; improved release cadence from monthly to weekly.
+- Aligned global stakeholders and go-to-market for accelerated adoption.
 
-- **May 2018 - August 2020**: Software Analyst and Architect
-- **January 2017 - May 2018**: Software Developer
-- **June 2015 - December 2016**: Intern in Software Development
+#### Engineering Manager • Internal Developer Platform (2024)
+
+- Co-created Mobility’s Internal Developer Portal improving discoverability and collaboration.
+- Defined adoption KPIs and informed architecture strategy for Mobility’s decoupling.
+
+#### Engineering Manager • Career Roadmap & AI (2024)
+
+- Co-authored engineering career roadmap with clear IC expectations and benchmarks across divisions.
+- Built an AI agent to guide skills development; adopted by HR and Operations.
+
+#### Engineering Manager • Trimble Inspections (2023)
+
+- Designed and launched a new product replacing legacy DVIR aligned to marketplace strategy.
+- Set and tracked KPIs/SLAs for adoption, reliability, and cost; delivered MVP with clear ROI enabling migration post-acquisition.
+- Served as OKR Coach supporting executive rollout of company-wide OKRs.
+
+#### Engineering Manager • Driver Workflow (2022)
+
+- Led Brazil-based teams on a mission-critical app; implemented Datadog and Crashlytics.
+- Reduced bug SLA from 14 to 3 days and established new quality benchmarks.
+
+#### Engineering Manager • Canada ELD (2021)
+
+- Coordinated global delivery with 100+ developers; achieved government certification 2 months early.
+- Made Trimble the first large tech certified in Canada; standardized modern engineering practices across ELD/DVIR.
+
+#### Senior Software Engineer • Canada ELD (2020)
+
+- Acted as Tech Lead/Scrum Master to localize a legacy product for Canadian regulations.
+- Introduced unit/integration tests, feature flags, SOLID, and structured logging to improve reliability and observability.
+- Collaborated with stakeholders to meet tight deadlines while reducing certification audit risk.
+
+### MPS Informática (2015 - 2020)
+
+- **Software Analyst & Architect** (May 2018–Aug 2020)
+- **Software Developer** (Jan 2017–May 2018)
+- **Software Development Intern** (Jun 2015–Dec 2016)
 
 ### Universidade Tecnológica Federal do Paraná
 
-- **April 2013 - April 2015**: Scholarship on PET-CoCE program
+- **Apr 2013–Apr 2015**: Scholarship - PET-CoCE program
+
+## Technical Skills
+
+- Languages & Frameworks: .NET (C#), Python (FastAPI, Django, DS/ML), Kotlin (Android, Spring Boot), TypeScript (Vue, React, Deno, Playwright)
+- Architecture & Delivery: monoliths, microservices, microfrontends, serverless; solution design; ADRs and standards
+- Quality & Observability: testing strategy (unit/integration/E2E), KPIs, distributed logging, tracing, monitoring
+- DevOps & Platform: CI/CD, infrastructure as code, feature flags, container orchestration, inner-sourcing practices
+- Ways of Working: OKRs, KPIs, engineering career frameworks, cross-team collaboration, stakeholder management
 
 ## Languages
 
@@ -65,52 +118,21 @@ Using LLMs (such as GPT4 and LLAMA2) to support myself when coaching engineers o
 | 🇪🇸 Spanish              | Intermediate |
 | 🇫🇷 French               | Basic        |
 
-## Certificates
+## Education
 
-### OKR Certified Coach
+### Bachelor of Information Systems - Universidade Tecnológica Federal do Paraná (2012–2019)
 
-Issued by: Expert in the outcome mindset method
+Curriculum focused on systems development, networks, databases, security, and software engineering practices.
 
-Issued on: December 2021
+### High-School - Centro Federal de Educação Tecnológica de São Paulo (CEFET/SP)
 
-[Certification](https://lp.workboard.com/rs/047-RAB-974/images/Rodolpho_Alves.pdf?mkt_tok=MDQ3LVJBQi05NzQAAAGBg77NoZtzEQhzGixPG19lg85M5EMQQuxxQqAhUdWCGlPNXQBU8G7jDTm012nTsHX_8liMhzK8lPNwq0GrviTIA-CcThYZfo0LqqmOUp5m)
+2008–2011 - Completed high school; elective coursework in C programming.
 
-### Team Accelerator Workshop
+## Certifications
 
-Based on Belbin roles, situational leadership and effective team collaboration.
-
-Issued by: Trimble Inc
-
-Issued on: March 2021
-
-### The 6 Critical Practices for Leading a Team
-
-[Based on FranklinCovey's](https://www.franklincovey.com/courses/6-critical-practices/) six critical practices for leading a team.
-
-Issued by: Trimble Inc
-
-Issued on: November 2020
-
-### Microsoft Certified: Azure Solutions Architect Expert (10/2019)
-
-Issued by: Microsoft
-
-Issued on: October 2019
-
-[Certification](https://www.credly.com/badges/13879309-a966-434f-87bc-81ec3793d3e2/linked_in_profile)
-
-### Microsoft Certified: Azure Developer Associate (03/2020)
-
-Issued by: Microsoft
-
-Issued on: March 2020
-
-[Certification](https://www.credly.com/badges/81c1dfb5-0d6a-415f-8549-8a0ac6a0f957/linked_in_profile)
-
-### Scrum Fundamentals Certified (01/2020)
-
-Issued by: SCRUMstudy - Accreditation Body for Scrum and Agile
-
-Issued on: Jan 2020
-
-Credential ID 756669
+- OKR Certified Coach - Expert in the Outcome Mindset Method (Dec 2021) - [Certificate](https://lp.workboard.com/rs/047-RAB-974/images/Rodolpho_Alves.pdf?mkt_tok=MDQ3LVJBQi05NzQAAAGBg77NoZtzEQhzGixPG19lg85M5EMQQuxxQqAhUdWCGlPNXQBU8G7jDTm012nTsHX_8liMhzK8lPNwq0GrviTIA-CcThYZfo0LqqmOUp5m)
+- Team Accelerator Workshop - Trimble (Mar 2021) - Belbin roles, situational leadership, collaboration
+- The 6 Critical Practices for Leading a Team - Trimble/FranklinCovey (Nov 2020)
+- Microsoft Certified: Azure Solutions Architect Expert (Oct 2019) - [Credential](https://www.credly.com/badges/13879309-a966-434f-87bc-81ec3793d3e2/linked_in_profile)
+- Microsoft Certified: Azure Developer Associate (Mar 2020) - [Credential](https://www.credly.com/badges/81c1dfb5-0d6a-415f-8549-8a0ac6a0f957/linked_in_profile)
+- Scrum Fundamentals Certified - SCRUMstudy (Jan 2020), ID 756669

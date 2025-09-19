@@ -5,7 +5,21 @@ lang: en
 lastUpdated: true
 ---
 
-## About
+## Contact Information
+
+Rodolpho Alves
+
+Engineering Manager | Leader | Solutions Architect | Python | .NET | DevOps | Data Science
+
+Curitiba, Paraná, Brazil
+
+### Social Medias
+
+- [e-mail](mailto:rodolpho.castro.a@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/rodolpho-alves93/)
+- [GitHub](https://github.com/rodolphocastro)
+
+## About me
 
 I am an Engineering Leader with over 10 years of experience in technology, having evolved from Software Engineer through Tech Lead and Solutions Architect, and for the past years driving organizational impact as an Engineering Manager. My focus has consistently been on leveraging technology, people, and processes to deliver business value at scale.
 
@@ -33,7 +47,7 @@ Following the acquisition of Trimble Transportation Mobility, led efforts to dec
 
 Scaled rollout of a telematics and video monitoring product from Brazil to the U.S. Recruited and led a 20-person team, aligning global stakeholders. Drove adoption of microfrontends, feature flags, and automation, raising release cadence from monthly to weekly.
 
-#### 2924 - Internal Developer Platform - Engineering Manager
+#### 2024 - Internal Developer Platform - Engineering Manager
 
 Co-created an Internal Developer Portal to improve discoverability and collaboration across Mobility engineering. Defined adoption KPIs and contributed to architectural strategy for Mobility’s decoupling.
 

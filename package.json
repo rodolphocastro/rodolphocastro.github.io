@@ -9,7 +9,8 @@
     "preview": "vitepress preview",
     "lint": "prettier . --check",
     "format": "prettier . --write",
-    "test": "playwright test"
+    "test": "playwright test",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",

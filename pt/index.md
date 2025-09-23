@@ -9,12 +9,12 @@ hero:
 features:
   - title: Blog Posts
     icon: 📚
-    details: My thoughts around things in the industry
+    details: Opiniões sobre a indústria de Software
     link: /posts
-    linkText: See Posts
-  - title: Resume
+    linkText: Ver posts
+  - title: Currículo
     icon: 📝
-    details: My resume
+    details: Meu currículo
     link: /curriculum
-    linkText: See Resume
+    linkText: Ver CV
 ---

@@ -1,5 +1,4 @@
-import { createContentLoader, DefaultTheme, defineConfig } from 'vitepress';
-import { fromContentDataToBlogPost } from '../utils.mts';
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

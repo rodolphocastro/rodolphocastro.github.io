@@ -17,7 +17,7 @@ This repository contains the sourcecode for my personal website.
 
 This project uses `husky` to streamline git operations when running locally.
 
-Hooks may be found on the [.husky/ folder](.husky/).
+Hooks may be found on the `.husky` folder at the root of the repository.
 
 ### Releasing
 

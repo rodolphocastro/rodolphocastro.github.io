@@ -11,7 +11,8 @@
     ".vitepress/cache": true,
     ".vitepress/dist": true,
     "playwright-report": true,
-    "test-results": true
+    "test-results": true,
+    ".husky/_": true
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

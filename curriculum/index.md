@@ -22,7 +22,7 @@ Curitiba, Paraná, Brazil (remote-friendly)
 - Engineering leader with 10+ years across IC and management roles (Software Engineer → Solutions Architect → Tech Lead → Engineering Manager).
 - Led global, cross-functional teams (Brazil, India, Canada, US) delivering regulatory launches, greenfield products, and platform initiatives.
 - Proven record improving release cadence, reliability, and ROI via observability, automation, microfrontends, and feature flags.
-- Scales organizations with clear KPIs/OKRs, data-driven decisioning, and inner-sourcing to accelerate delivery and quality.
+- Scales organizations with clear KPIs/OKRs, data-driven decisions, and inner-sourcing to accelerate delivery and quality.
 - Strong partner to product and business; aligns strategy to execution and fosters a culture of ownership, transparency, and learning.
 - Breadth across mobile, web, backend, and platform; depth in DevOps, testing, and architectural standards at scale.
 

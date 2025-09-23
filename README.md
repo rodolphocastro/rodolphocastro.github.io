@@ -13,6 +13,12 @@ This repository contains the sourcecode for my personal website.
 
 ## Processes
 
+### Git hooks
+
+This project uses `husky` to streamline git operations when running locally.
+
+Hooks may be found on the [.husky/ folder](.husky/).
+
 ### Releasing
 
 Releases are done by pushing a new tag to `main`.

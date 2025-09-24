@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/rodolphocastro/rodolphocastro.github.io.git"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Personal website for @rodolphocastro with static content",
   "main": "index.js",
   "scripts": {

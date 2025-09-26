@@ -1,7 +1,26 @@
 {
   "name": "rodolphocastro.github.io",
-  "version": "1.0.2",
-  "description": "",
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "22.x"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": "10.x"
+    }
+  },
+  "homepage": "https://rodolphocastro.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodolphocastro/rodolphocastro.github.io.git"
+  },
+  "version": "1.0.3",
+  "description": "Personal website for @rodolphocastro with static content",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev",
@@ -12,13 +31,20 @@
     "test": "playwright test",
     "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vitepress",
+    "vue"
+  ],
+  "author": {
+    "name": "Rodolpho Alves",
+    "email": "rc@rdca.dev.br",
+    "url": "https://github.com/rodolphocastro"
+  },
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "@playwright/test": "^1.55.0",
+    "@playwright/test": "^1.55.1",
     "@types/node": "^24.5.2",
     "dotenv": "^17.2.2",
     "husky": "^9.1.7",

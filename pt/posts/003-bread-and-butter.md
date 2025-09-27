@@ -1,81 +1,84 @@
 ---
 date: 2025-09-26
 title: 'Feijão com Arroz'
-description: 'as vezes esquecemos o valor do básico bem feito...'
+description: 'Às vezes esquecemos o valor do básico bem feito na engenharia de software.'
 author: Rodolpho Alves
 published: true
 lang: pt
 ---
 
-Esses dias estava vagando pelo YouTube e me foi sugerido um vídeo que eu não esperava com base no título mas que o conteúdo (pelo menos os primeiros 15m) fez total sentido para mim. Era uma [keynote da abertura da Rails World 2025](https://youtu.be/gcwzWzC7gUA?si=KVKwsHroxcvSSdbC) pelo David Heinemeier Hansson em que se falava muito sobre a liberdade end-to-end de uma stack e sobre como, nas últimas décadas, o universo de software criou complexidade desnecessária. Desde que assisti essa keynote fiquei remoendo e este post é meu take no assunto, no qual eu concordo plenamente com DHH!
+Esses dias o YouTube me recomendou uma palestra que eu não esperava pelo título, mas cujo conteúdo (pelo menos nos primeiros 15 minutos) fez total sentido para mim: a [keynote de abertura da Rails World 2025](https://youtu.be/gcwzWzC7gUA?si=KVKwsHroxcvSSdbC) do David Heinemeier Hansson. Ele fala sobre a liberdade end-to-end e como criamos complexidade desnecessária nas últimas décadas. Fiquei remoendo isso e este post é meu take — concordando bastante com o DHH.
 
-## Feijão com Arroz?
+## Feijão com arroz?
 
-> Ué, isso aqui não era um blog de engenharia de software? Pq falar de comida!?
+> “Ué, isso aqui não era um blog de engenharia de software? Por que falar de comida?!”
 
-Para aquele que não estão acostumados com o termo "Feijão com Arroz" uma breve explicação: na culinária brasileira esse é o prato mais comum e que, ao mesmo tempo, provê praticamente todos os tipos de nutrientes que precisamos para ficarmos saudáveis. Portanto chamar algo de "feijão com arroz" não só quer dizer que é algo "básico" (pela sua simplicidade de se fazer) mas que também supre essa demanda fundamental para a existência humana.
+Para aqueles que não estão acostumados com o termo “feijão com arroz”, uma breve explicação: é o prato mais comum da culinária brasileira e, ao mesmo tempo, entrega praticamente todos os nutrientes de que precisamos. Chamar algo de “feijão com arroz” não significa só que é “básico”, mas que cobre o essencial.
 
-> Importante para fins de tradução: em inglês o termo equivalente é o "Bread and Butter" - o prato mais básico da culinária deles e que funciona para que seu "breakfast" te mantenha saciado por um tempo decente.
+> Em inglês o termo equivalente seria “bread and butter” - o básico que sustenta o resto.
 
-E com essa referência bem compreendida acho que podemos começar a falar um pouco sobre uma tendência... complicada... de muitos desenvolvedores e produtos por ai: a mania de esquecer os básicos e partir direto para algo mais chamativo ou complexo!
+Com essa referência estabelecida, dá para falar sobre uma tendência... complicada: a mania de ignorarmos o básico e irmos direto para o chamativo ou complexo.
 
 ## O que é o básico?
 
 Para mim, no contexto de engenharia de software, o básico é aquilo que:
 
-- Atende a maior parte dos requisitos
-- Funciona de maneira estável e confiável
+- Atende a maior parte dos requisitos.
+- Funciona de maneira estável e confiável.
+- (Idealmente) É simples de evoluir e manter.
 
-Parece bobo mas no fim se formos ver boa parte dos sistemas que você usa, hoje, fazem exatamente esse básico de uma maneira excepcional e sem problemas:
+Pode parecer óbvio, mas boa parte dos sistemas que você usa hoje faz exatamente esse básico muito bem:
 
-- Ao abrir o Mercado Livre você consegue achar um produto, adicionar ao carrinho e faturar
-- Ao abrir o LinkedIn você consegue visualizar um feed de Posts e alterar seu perfil
-- Ao logar na sua Steam você consegue comprar, instalar e jogar jogos em seu computador
+- Mercado Livre: você encontra um produto, adiciona ao carrinho e finaliza a compra.
+- LinkedIn: você abre o feed e edita seu perfil.
+- Steam: você compra, instala e joga.
 
-> Mas Rodolpho, essas coisas não são básicas!!!
+> “Mas isso não é básico!”  
+> Depende: o “básico” varia conforme domínio. Mas se o caminho crítico (critical path) não funciona, todo o resto perde valor. Se você não consegue instalar e jogar, pouco importa o Steam Overlay.
 
-Realmente o "básico" pode variar conforme o sistema / domínio que você está lidando. Mas a verdade é que para todos esses use cases, por mais complicados ou longos que sejam de implementar, se eles não funcionarem não tem muito valor todas as outras funcionalidades! Se você não consegue comprar, instalar e jogar na Steam de pouco vai lhe servir o Steam Overlay ou a feature de comunidades!
+## A mania de perseguir o “completo”
 
-> Em alguns cenários de qualidade ou risk-assessment também podemos chamar o básico de "Critical Path" de um sistema.
-
-## A mania por perseguimos o completo
-
-Voltando à keynote do DHH: algo curioso que aconteceu na indústria é que nas últimas décadas adicionamos cada vez mais complexidade aos sistemas nos quais trabalhamos:
+Ao longo das últimas décadas fomos adicionando camadas e camadas:
 
 - Kubernetes
-- 1001 Sistemas para logs (observabilidade)
-- 200 sabores de pipelines para CI/CD
-- Trocentas maneiras de fazer feature flags / toggles
-- Infrastructure as Code, seja com Terraform ou algo proprietário
+- Incontáveis soluções de logs e observabilidade
+- Vários sabores de pipelines CI/CD
+- Muitas maneiras de implementar feature flags (toggles)
+- Infrastructure as Code (Terraform ou proprietários)
 
-Me lembro de, aos meus 15 anos, conseguir manter meu servidor privado (para não falar outra coisa) de Tibia rodando em meu computador (um Windows XP Service Pack 2) por meses a fio e chegando a ter mais de 200 jogadores em simultâneo. Tudo isso sem ter um link dedicado, sem ter um banco de dados controlado por IaC (aliás, se me lembro bem, era um banco de dados XML na época!), sem ter uma esteira para validar meu código LUA e definitivamente sem testes de unidade (o teste era eu logar como GOD no servidor e ir fazer a quest!). Em questão de minutos eu conseguia subir uma versão nova com mais áreas no mapa e novas quests / spells para meus amigos que estavam jogando.
+Quando eu tinha 15 anos, mantinha um servidor “privado” de Tibia no meu PC (Windows XP SP2) com 200+ jogadores simultâneos. Sem link dedicado, sem IaC, sem pipeline, sem testes. Eu logava como GOD, validava e deployava em minutos. Hoje, em alguns projetos, abrir 5+ PRs para prototipar algo não é estranho.
 
-Ironicamente, hoje em dia, existem projetos em que eu atuo com tecnologias bem mais robustas mas que o deploy não é algo tão simples como isso. Desde abrir mais de 5 PRs em repositórios diferentes a ter de lidar com várias camadas de abstrações de IaC para poder prototipar (nem lançar) uma nova feature. E se formos ver a industria como um todo cada vez mais estamos tendendo a ir para a complexidade ao invés do básico!
+Bootcamps ensinam Cloud antes de TCP/IP ou HTTP. Falamos de Container Registry antes de uma simples transferência via SSH ou SFTP (que poderia economizar horas de debug). Começamos direto em microsserviços ou serverless em vez de iniciar com algo coeso e evoluir. Pressionamos por mais E2E/Stress/Chaos/Performance enquanto devs nem conseguem rodar o básico localmente.
 
-Muitos bootcamps e cursos hoje recomendam para desenvolvedores primeiro saberem usar uma Cloud (AWS, Azure, GCP) antes de falar do básico que é o protocolo IP e coisas como HTTP. Falamos de Container Registry mas não falamos de um SSH / SFTP (que, em muitos casos, poderia salvar horas e horas de debug feito via deploys). Tendemos a criar sistemas diretamente na arquitetura de microservices / serverless ao invés de fazer o básico e iterar sobre ele. Existe uma pressão para que cada vez existem mais testes automatizados de alto nível (E2E, Stress, Chaos, Performance) enquanto equipes sofrem para testar suas alterações localmente.
+> Existem sistemas em que desenvolvedores não conseguem executar a aplicação localmente, eles dependem totalmente da nuvem para testar uma feature.
 
-> Existem sistemas por ai em que os desenvolvedores sequer consegue rodar algo localmente, dependendo totalmente da nuvem para conseguir rodar um teste (manual) de sua feature!
+Resultado? Adoção acrítica, vendor lock-in, latência para deploy e para entregar valor.
 
-A cada semana que passa um novo serviço, ou biblioteca, surge para ser a "bala de prata" e o "must-have" de uma tech-stack. E cada vez eles são adotados sem um pensamento crítico. Sem tratar a causa raiz. Resultado? Vendor lock-in, latência para conseguir fazer um deployment ou para conseguir criar uma feature.
+## Microsserviços por toda parte
 
-## Microservices all the way down
+Microsserviços podem escalar performance, times e domínios. Mas têm custo: orquestração, infraestrutura, CI/CD, padrões. E quando mal feitos geram acoplamento distribuído, chatter excessivo e transações frágeis; podendo performar pior que um monólito.
 
-Um exemplo prático de nossa sanha coletiva, como indústria, pelo complexo são os micro serviços.
+Mesmo assim, o hype manda começar distribuído. Startups gastam mais mantendo a arquitetura do que construindo funcionalidades que comprovem hipóteses de mercado.
 
-É uma arquitetura maravilhosa que de fato escala bem (quando bem feita) tanto em performance quanto em quantidade de equipes trabalhando em paralelo. Porém ela tem um custo considerável de complexidade técnica (orquestração, CI/CD, recursos de infraestrutura) e mental (padrões de arquitetura e anti-patterns a serem evitados) e principalmente: quando ela é feita de forma errada, com anti-patterns abundantes, ela performa pior do que um "monólito".
+> “Então não devo usar microsserviços e só fazer monólitos?”  
+> Não. O ponto é: use a complexidade quando ela se justifica, não antes.
 
-Mas abra o YouTube e você verá muito mais cursos falando de como seu projeto deve começar com microservices (ou serverless) ao invés de considerar uma arquitetura monolítica ou de serviços. Vá para a indústria e verá a quantidade de start-ups que gastam mais recursos mantendo seus microservices do que criando features para clientes, totalmente sabotando sua habilidade de gerar valor.
+## Adicione complexidade apenas quando necessário
 
-> Mas Rodolpho, quer dizer que então eu não deveria usar microservices e fazer apenas monolítos?
+**YAGNI — You Ain’t Gonna Need It.** Às vezes esquecemos disso enquanto recitamos DRY ou SOLID.
 
-Não meu amigo. O que eu quero dizer é que...
+O livro Refactoring (Martin Fowler) ensina: resolva o problema primeiro, depois refatore se padrões emergirem ou dores aparecerem. Não comece pensando no pattern, comece entregando valor.
 
-## Adicione complexidade apenas quando for necessário!
+> Nem tudo precisa do melhor pattern / ferramenta / processo logo de cara. Errar e refatorar faz parte do desenvolvimento ágil.
 
-YAGNI - You ain't gonna need it. Uma sigla que as vezes esquecemos ao pensar em DRY ou SOLID mas que funciona muito bem tanto para abstrações de código quanto para de arquitetura e processos.
+Se sua API só faz CRUD, talvez não precise de Kubernetes. Um container simples pode ser suficiente. Com 50 usuários talvez nem isso... um serviço básico resolve. Construa para evoluir, mas não sacrifique tempo e oportunidade perseguindo perfeição prematura.
 
-Um dos livros clássicos, Refactoring por Martin Fowler, nos passa uma lição importante e que pode ser aplicada para várias coisas em seus sistemas (e processos): não comece pelo refactor ou o design pattern. Comece resolvendo o problema (seja ele qual for) e observe como sua solução ficou. Se você copiar-colar ela ou se ver que existem problemas com ela (como falta de escalabilidade em um serviço) ai sim aplique uma das técnicas de refactor.
+## Resumo prático
 
-> Nem tudo precisa seguir o melhor Design Pattern / Ferramenta / Processo logo de cara. Errar e 'refatorar' é parte crucial para o desenvolvimento ágil de produto.
+- Comece simples: entregue o caminho crítico estável.
+- Meça antes de otimizar ou distribuir.
+- Adote ferramentas pela dor real, não pelo hype.
+- Evite complexidade “aspiracional”.
+- Evolua por refactor incremental, não por reescrita antecipada.
 
-Se sua API só faz CRUD não tem motivo para rodar ela em um Kubernetes. Um simples container, deployado em um Fargate da vida, pode ser suficiente. Se você possui apenas 50 usuários talvez nem de um Fargate precise... Crie sistemas que podem evoluir mas não perca tempo (e, por tabela, oportunidades) fazendo algo perfeito!
+> Valor entregue > arquitetura “instagramável”.

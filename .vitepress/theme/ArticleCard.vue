@@ -8,19 +8,24 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    post: {
-      type: Object,
-      required: true,
-    },
-  },
-  methods: {
-    redirectToPost() {
-      window.location.href = this.post.url;
-    },
-  },
+<script setup lang="ts">
+import { BlogPost } from '../../utils.mts';
+import { useRouter } from 'vitepress';
+import { defineProps } from 'vue';
+const router = useRouter();
+
+/**
+ * Props required for this component.
+ */
+const props = defineProps<{
+  post: BlogPost;
+}>();
+
+/**
+ * Redirect to the post's URL
+ */
+const redirectToPost = () => {
+  router.go(props.post.url);
 };
 </script>
 

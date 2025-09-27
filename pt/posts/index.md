@@ -11,7 +11,7 @@ published: false
     
 </script>
 
-## All posts
+## Todos os posts
 
 Existem {{ blogPosts.length }} posts, escolha um na barra lateral ou nos cards abaixo.
 

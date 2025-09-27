@@ -65,9 +65,9 @@ Mesmo assim, o hype manda começar distribuído. Startups gastam mais mantendo a
 
 ## Adicione complexidade apenas quando necessário
 
-**YAGNI — You Ain’t Gonna Need It.** Às vezes esquecemos disso enquanto recitamos DRY ou SOLID.
+**YAGNI - You Ain’t Gonna Need It.** Às vezes esquecemos disso enquanto recitamos os mantras de DRY ou SOLID.
 
-O livro Refactoring (Martin Fowler) ensina: resolva o problema primeiro, depois refatore se padrões emergirem ou dores aparecerem. Não comece pensando no pattern, comece entregando valor.
+O livro Refactoring de Martin Fowler ensina: resolva o problema primeiro, depois refatore se padrões emergirem ou dores aparecerem. Não comece pensando no pattern, comece entregando valor.
 
 > Nem tudo precisa do melhor pattern / ferramenta / processo logo de cara. Errar e refatorar faz parte do desenvolvimento ágil.
 
